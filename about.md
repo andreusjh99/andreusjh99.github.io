@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+[//]: # (pay attention to the _layouts folder in the repo)
 title: About
 permalink: /about/
 ---
