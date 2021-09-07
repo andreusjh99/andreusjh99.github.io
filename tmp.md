@@ -7,3 +7,5 @@ layout: default
 
 Hello
 
+[link to first post](./_posts/2021-09-07-welcome-to-jekyll.md)
+
