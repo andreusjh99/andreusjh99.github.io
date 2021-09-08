@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2021-09-07 18:38:51 +0800
+read: 2
 # description: Hello
 categories: jekyll update
 ---

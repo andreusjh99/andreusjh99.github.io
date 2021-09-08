@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 [//]: # (pay attention to the _layouts folder in the repo)
-title: About
+title: About Me
 permalink: /about/
 ---
 
