@@ -1,0 +1,65 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url(fontawesome-all.min.css);
+
+// icons
+ul.icons {
+    cursor:pointer;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    // margin-bottom: 0;
+    margin-left: 1rem;
+
+    li {
+        display: inline-block;
+        padding: 0 .5rem 0 0;
+        vertical-align: middle;
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        .icon:before {
+
+            width: 2.25rem;
+            height: 2.25rem;
+            line-height: 2.25rem;
+            display: inline-block;
+            text-align: center;
+            border-radius: 100%;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.icon {
+    border-bottom: none;
+    position: relative;
+
+    &:before {
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        text-transform: none !important;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 400;
+        line-height: inherit;
+    }
+
+    > .label {
+        display: none;
+    }
+
+    &.brands:before {
+        // color: black;
+        font-family: 'Font Awesome 5 Brands';
+    }
+
+}

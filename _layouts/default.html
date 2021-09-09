@@ -25,7 +25,11 @@
             <a href="{{ '/' | absolute_url }}">
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
             </a>
-            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            <!-- <h2>{{ site.description | default: site.github.project_tagline }}</h2> -->
+            <h2><a href="https://www.youtube.com/watch?v=C7BB5kkK3PA&ab_channel=Crilyte"
+                    style="color: #7bd1ff; cursor: pointer;" target="_blank">Hello
+                    there!</a> Welcome to my
+                blog.</h2>
 
             <!-- {% if site.github.is_project_page %}
             <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
@@ -45,6 +49,16 @@
             <aside id="sidebar">
 
                 <h2><a href="{{ 'about' }}">&raquo; About Me</a></h2>
+
+                <!-- add  -->
+                <ul class="icons">
+                    <li><a href="https://github.com/andreusjh99" class="icon brands fa-github" target='_blank'><span
+                                class="label">Github</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/andreusjh99/" class="icon brands fa-linkedin"
+                            target='_blank'><span class="label">Linked-in</span></a></li>
+                    <li><a href="https://open.spotify.com/user/21gjwn5bxpvh2rn4asr534pgi?si=e3fc49df7b8540ba"
+                            class="icon brands fa-spotify" target='_blank'><span class="label">Spotify</span></a></li>
+                </ul>
 
                 {% if site.show_downloads %}
                 <a href="{{ site.github.zip_url }}" class="button">
