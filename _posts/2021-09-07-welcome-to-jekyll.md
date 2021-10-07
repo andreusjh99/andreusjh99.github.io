@@ -7,6 +7,8 @@ description: Brief instructions for adding a new blog post to a static site buil
 categories: jekyll update
 ---
 
+---
+
 # First post
 ## header
 ### header

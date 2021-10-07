@@ -25,31 +25,31 @@ Before we move on, you probably heard these two terms often mentioned together. 
 
 **Machine learning** is a specific subset of AI which mimics the human ability to learn. 
 
-## So how do models learn with Machine Learning?
+# So how do models learn with Machine Learning?
 
 The key element of machine learning is that models learn from **experience**, as humans do.
 
-### Humans learn from experience. 
+## Humans learn from experience. 
 
 - After falling multiple times, babies learn what to do and what not to do, and eventually learn how to walk. 
 - Ask someone who knows nothing about chess to watch two players playing chess. After a few rounds, they will be able to deduct that rooks move only in straight lines, bishops only in diagonals, and so on, from their observation. 
 
 From experience and observation, humans learn to **group, classify and identify patterns**. With more experience and learning instances, the patterns identified become increasingly accurate.
 
-### Machine Learning
+## Machine Learning
 
 Machine learning is essentially the same concept. Using the human analogy, **models** are the humans, and **data** is the learning instances.
 
 Data collected from various sources (sensors, user-generated, etc) is fed into a model. The model then looks for patterns in the data. Using these patterns, the model is able to make better decisions. 
 
-## Types of Machine Learning
+# Types of Machine Learning
 
 There are three main types of machine learning: 
 1. Supervised learning
 2. Unsupervised learning
 3. Reinforcement learning 
 
-### Supervised Learning
+## Supervised Learning
 
 Data can be labelled or unlabelled. For example, given an image of a cat, the image can be given a label "cat" or not.
 >A supervised learning model uses labelled data for its learning. 
@@ -58,25 +58,25 @@ In supervised learning, the model takes in labelled data samples and learns the 
 
 A common task or problem in supervised learning is **classification**. Classfication is the act of classifiying data, i.e. assigning labels to data. Classification is widely used. The most common applications include (but is not limited to):
 
-1.  Face detection
+1.  **Face detection**
     
     Detecting a face in an image. This could be detecting the presence of a face in the image or determining the exact location (in terms of pixels) of the face in the image.
 
     For detecting the presence of a face in an image, the data will comprise images with and without faces, and the label to each image will be `True` if the image contains a face and `False` if the image does not contains a face. After learning, when given a new image, the model will then predict whether the image has a face.
     
-2.  Object detection and classification
+2.  **Object detection and classification**
     
     This is similar to face detection but for objects. Typically these problems involve detecting and classifying multiple types of objects in an image.
 
     For example, for a self-driving car to safely manoeuvre a busy road, it is important to know the different objects present on the road. From an image of the road taken with sensors or cameras on the car, the model needs to not only be able to detect the presence and location of stop signs, pedestrians, trees, pavement, etc. in the image but also to classifies those objects correctly.
     
-3.  Speech recognition
+3.  **Speech recognition**
     
     This is a common task which forms the basis of auto captioning services and voice assistants. Speech recognition is the task of transcribing speech, i.e. converting speech to text. The data is speech audio and the label to each speech audio is the text corresponding to what's said in the audio. After learning, the model is able to provide text for a new speech audio.
 
 As can be seen in the examples above, the problem involves data with labels. The model learns the correlation between the data and the labels. When given new data, the model then applies what it learned to predict the label for the new data.
 
-### Unsupervised Learning
+## Unsupervised Learning
 
 While supervised learning uses labelled data, 
 >Unsupervised learning uses unlabelled data.
@@ -96,7 +96,7 @@ Since there are no labels, we humans will have no idea what clusters the model w
 
 Therefore, in classification, the model effectively "clusters" the data into groups based on labels attached to the data (by us humans), while in clustering, the model has to learn that on its own. This means that it is possible for the model to learn criteria for clustering that we humans had never thought of before!
 
-### Reinforcement Learning
+## Reinforcement Learning
 
 Finally, reinforcement learning. 
 >**Reinforcement learning** is an area of machine learning concerned with learning to make a sequence of decisions. 
@@ -109,7 +109,7 @@ A reinforcement learning model does the same thing. The model might be tasked to
 
 The problems reinforcement learning tackle usually involve sequences of complex decisions. Examples include but are not limited to robots learning to walk, models learning to play a game, etc.
 
-## Conclusion
+# Conclusion
 
 Machine learning is a rapidly growing area of interest due to its wide array of applications.
 
