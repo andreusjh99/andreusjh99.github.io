@@ -9,7 +9,7 @@ categories: machine learning
 
 ---
 
-# Automatic Speech Recognition (ASR)
+# ASR
 
 **Automatic speech recognition (ASR)** is the task of processing human speech into written format. In other words, 
 
@@ -40,9 +40,9 @@ The rise of **deep learning** has fuelled interests in an end-to-end approach to
 
 The key advantage of such approach is the ability to *jointly train the acoustic, language and pronunciation components in a **single** model*, instead of optimising the components separately. This greatly simplifies building an ASR system as the entire model is now differentiable and lends itself automatically to optimisation procedures like gradient descent, making it easier to train and develop.
 
-## Inputs and outputs
+# Inputs and outputs
 
-### Inputs
+## Inputs
 
 The input of an ASR system is audio recordings. To allow the models to perform better, however, **features are extracted** from the audio sequences in a preprocessing step. These extracted acoustic features are then passed into the models instead of the raw audio recording.
 
@@ -59,17 +59,19 @@ Typically, the procedure goes like this:
 
 3. **Fourier Transform** of the signal is computed for each frame, and the **power spectrum** is computed from the Fourier Transform for each frame.
 
-4. A bank of triangular filters on a <a href="https://en.wikipedia.org/wiki/Mel_scale" target="_blank">Mel-scale</a> is then applied to each power spectrum to extract frequency bands for each frame. The result is the **Mel filterbank** coefficients for every frame.
+4. A bank of triangular filters on a <a href="https://en.wikipedia.org/wiki/Mel_scale" target="_blank">Mel-scale</a> is then applied to each power spectrum to extract frequency bands for each frame. The result is the **Mel filter bank coefficients** for every frame.
     
-5. **Discrete Cosine Transform** is applied to the filter banks to decorrelate the filterbank coefficients. The higher coefficients are discarded as they typically represent noise in the original signal. The result is the **MFCCs** for every frame.
+5. (For MFCCs,) **Discrete Cosine Transform** is applied to the filter banks to decorrelate the filterbank coefficients. The higher coefficients are discarded as they typically represent noise in the original signal. The result is the **MFCCs** for every frame.
 
 The extra step (step 5) for computing the MFCCs are motivated by the need to decorrelate the coefficients for some machine learning algorithms such as the Gaussian Mixture Models - Hidden Markov Models (GMM-HMM) typically used in traditional ASR systems. 
 
-**Deep neural networks** typically used for end-to-end ASR, on the other hand, are less susceptible to highly correlated input. Mel filter bank coefficients are therefore suitable for these networks and for end-to-end ASR.
+**Deep neural networks** typically used in end-to-end ASR, on the other hand, are less susceptible to highly correlated input. Mel filter bank coefficients are therefore suitable for these networks and for end-to-end ASR.
 
-### Outputs
+## Outputs
 
 The output of an ASR system is text. How do we represent text? 
+
+### Phonemes
 
 Traditional ASR systems are typically phonetic-based. Therefore, the output text sequences for these systems are represented in the form of **phonemes**. 
 
@@ -81,6 +83,8 @@ Words can be represented by sequences of phonemes. For example,
 
 Therefore, systems using phonemes require a pronunciation lexicon to convert words to sequences of phonemes. As a result, the systems are not able to recognise words not in the lexicon, or *out-of-vocabulary (OOV) words*. (An ASR system has a vocabulary of words that it can recognise. Words that are not in the vocabulary are beyond the system's capabilities. OOV words are words not in the vocabulary.)
 
+### Words and subwords
+
 In end-to-end ASR, acoustic features can be mapped directly to the outputs. Therefore, words (or subword units) are more commonly used. Output units like **characters**, **subword units** and **words** are often used. For the English language:
 
 - **Words** (For eg. "Cambridge")
@@ -89,9 +93,9 @@ In end-to-end ASR, acoustic features can be mapped directly to the outputs. Ther
 
 - **Subword units** (For eg. "Cam", "bridge"). There are two popular methods of performing subword segmentation: <a href="https://aclanthology.org/P18-1007.pdf" target="_blank">unigram language model (ULM)</a> and <a href="https://arxiv.org/pdf/1209.1045.pdf" target="_blank">Byte Pair Encoding (BPE)</a>.
 
-## End-to-end Model Architectures
+# End-to-end Model Architectures
 
-### Streaming models
+## Streaming models
 
 The earliest attempt at end-to-end ASR came in the form of the **Connectionist Temporal Classification (CTC) loss function** developed by Alex Graves in <a href="https://www.cs.toronto.edu/~graves/icml_2006.pdf" target="_blank"> this paper</a>. This was further improved by Alex Graves in <a href="https://arxiv.org/pdf/1211.3711.pdf" target="_blank">this paper</a> to form the **Recurrent Neural Network Transducer (RNN-T)**.
 
@@ -101,13 +105,13 @@ CTC and RNN-T are attempts to work around this. They enable the RNNs to perform 
 
 > Streaming recognition is the ability to output text units on-the-fly as you feed in audio frames one by one.
 
-### Attention-based models
+## Attention-based models
 
 Another popular form of end-to-end ASR models are <a href="https://arxiv.org/pdf/1506.07503.pdf" target="_blank">**attention-based models**</a>, also commonly known as **sequence-to-sequence models**. 
 
-Briefly, the attention mechanism used in these models decides which input frames are important when predicting the output text units, thus paying more attention to those frames. 
+Briefly, the attention mechanism used in these models decides which input frames are important when predicting the output text units, thus paying more attention to frames that are important. 
 
-The attention mechanism was first used by Alex Graves in <a href="https://arxiv.org/pdf/1308.0850.pdf" target="_blank">this paper</a> and was integrated in ASR by Jan Chorowski in <a href="https://arxiv.org/pdf/1412.1602.pdf" target="_blank">this paper</a>, producing promising results. This was then further developed into encoder-decoder based models like:
+The attention mechanism was first used by Alex Graves in <a href="https://arxiv.org/pdf/1308.0850.pdf" target="_blank">this paper</a> and was integrated into ASR by Jan Chorowski in <a href="https://arxiv.org/pdf/1412.1602.pdf" target="_blank">this paper</a>, producing promising results. This was then further developed into encoder-decoder based models like:
 
 - the <a href="https://arxiv.org/pdf/1508.01211.pdf" target="_blank">Listen, Attend and Spell (LAS)</a> model,
 
@@ -117,7 +121,7 @@ The attention mechanism was first used by Alex Graves in <a href="https://arxiv.
 
 Unlike CTC and RNN-T, these attention-based models are not able to perform streaming recognition. This is because the entire input sequence needs to be available for the attention mechanism while performing ASR. This means output units can only be produced after the entire audio sequence is processed.
 
-## Conclusion
+# Conclusion
 
 1. Automatic speech recognition (ASR) is the task of transcribing speech automatically.
    

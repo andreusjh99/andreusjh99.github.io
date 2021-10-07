@@ -113,10 +113,13 @@ The problems reinforcement learning tackle usually involve sequences of complex 
 
 Machine learning is a rapidly growing area of interest due to its wide array of applications.
 
-- Machine learning models learn from experience, i.e. data.
-- Models learn to find patterns in the data.
-- Data can be labelled or unlabelled. Machine learning with labelled data is *supervised learning*, while machine learning with unlabelled data is *unsupervised learning*.
-- *Reinforcement learning* models learn to make sequence of decisions based on experience, rewards and punishments.
+1. Machine learning models learn from experience, i.e. data.
+   
+2. Models learn to find patterns in the data.
+   
+3. Data can be labelled or unlabelled. Machine learning with labelled data is *supervised learning*, while machine learning with unlabelled data is *unsupervised learning*.
+   
+4. *Reinforcement learning* models learn to make sequence of decisions based on experience, rewards and punishments.
 
 
 ---
