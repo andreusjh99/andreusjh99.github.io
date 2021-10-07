@@ -84,7 +84,7 @@ ul.icons {
     z-index: 99; // make sure it is always on top.
     border: none;
     outline: none;
-    background-color: black;
+    background-color: #469fff;
     color: white;
     cursor: pointer;
     padding: 8px 18px 8px 18px;
@@ -99,19 +99,14 @@ ul.icons {
         line-height: 1;
         text-transform: none !important;
         font-family: 'Font Awesome 5 Free';
-        font-weight: 400;
+        font-weight: 900;
         line-height: inherit;
         color: white;
-    }
-
-    &.solid:before {
-        // font-family: 'Font Awesome 5 Solid';
-        font-weight: 900;
     }
 }
 
 #toTopBtn:hover {
-    background-color: gray;
+    background-color: #2c82dd;
 }
 
 button span.label {
@@ -138,10 +133,45 @@ html {
         font-family: 'Font Awesome 5 Free';
         font-weight: 900;
         line-height: inherit;
-        color: white;
+        // color: white;
     }
 
     span.label {
         display: none;
+    }
+}
+
+// post header alignments
+ul.post-header {
+    // cursor:pointer;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    // margin-bottom: 0;
+    // margin-left: 1rem;
+
+    li {
+        display: inline-block;
+        padding: 0 5.0rem 0 0;
+        vertical-align: middle;
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        color: #469fff;
+
+        // &:before {
+
+        //     width: 2.25rem;
+        //     height: 2.25rem;
+        //     line-height: 2.25rem;
+        //     display: inline-block;
+        //     text-align: center;
+        //     border-radius: 100%;
+        //     font-size: 1.5rem;
+        // }
     }
 }
