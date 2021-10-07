@@ -8,7 +8,7 @@ layout: default
 {% endif %}
 
 {% if page.read %}
-<p class="meta">{{ page.read }} min read</p>
+<p class="meta"><i id="clock" class="fa-clock"><span class="label">clock</span></i>{{ page.read }} min read</p>
 {% endif %}
 
 <p class="meta">{{ page.description | default: "" }}</p>
