@@ -65,6 +65,16 @@ ul.icons {
 }
 
 
+// remove stroke for post titles
+#main-content h1.post-title {
+    font-weight: bold;
+
+    &:before {
+        content: none;
+    }
+}
+
+
 // totop button
 #toTopBtn {
     display: none;
