@@ -1,0 +1,96 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fafafa;
+    background: #001a35;
+}
+
+a {
+    color: #469fff;
+}
+a.hover {
+    color: #2c82dd;
+}
+
+header h1 {
+    width: auto
+}
+
+aside#sidebar {
+    background: none;
+    border-left: solid 1px #469fff;
+}
+
+header a.button {
+    display:block;
+}
+
+code, pre {
+    color: rgb(200, 200, 200);
+}
+
+code {
+    background-color: #000000;
+    border: none;
+}
+
+pre {
+    background: none;
+    border: solid 1px #666666;
+}
+pre code {
+    background-color: #252520;
+}
+
+#main-content h1 {
+    color: #9ddcff;
+}
+
+#main-content h2 {
+    font-size: 1.8em;
+    color: #9ddcff;
+}
+
+#main-content h3 {
+    font-size: 1.4em;
+    color: #9ddcff;
+}
+
+#main-content h4 {
+    color: #9ddcff;
+}
+
+#main-content h5 {
+    color: #9ddcff;
+}
+
+#main-content h6 {
+    color: #9ddcff;
+}
+
+blockquote {
+    font-size: 17px;
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    header h1, header h2 {
+      width: auto;
+    }
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    aside#sidebar {
+        border-top: solid 1px #469fff;
+        border-left: none;
+    }
+}
