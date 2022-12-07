@@ -12,7 +12,17 @@ Some notes (for myself):
 3. latex for math in md: `MathJax` (refer to `post.html`)
 4. jekyll theme
    
-    Make sure to specify in `_config.yml` and check that the gem is specified in `Gemfile`.
+    Make sure to specify in `_config.yml`:
+    
+        theme: jekyll-theme-architect
 
-5. 
+    and check that the gem is specified in `Gemfile`.
+
+        gem "jekyll-theme-architect", "~> 0.2.0"
+
+    If the gem has not been installed, run 
+        
+        $ bundle install
+
+1. 
 

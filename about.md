@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 [//]: # (pay attention to the _layouts folder in the repo)
 title: About Me
 # permalink: /about/

@@ -1,46 +1,48 @@
 ---
-layout: default
+layout: home
 ---
+
 <h1 class="post-title">{{ page.title }}</h1>
 
 <ul class="post-header">
-    {% if page.date %}
-    <li>
-        <i class="helpericon fa-pencil-alt"><span class="label">pencil</span></i>{{ page.date |
-        date_to_string
-        }}
-    </li>
-    {% endif %}
-
-    {% if page.read %}
-    <li>
-        <i class="helpericon fa-clock"><span class="label">clock</span></i>{{ page.read }} min read
-    </li>
-    {% endif %}
+  {% if page.date %}
+  <li>
+    <i class="helpericon fa-pencil-alt"><span class="label">pencil</span></i
+    >{{ page.date | date_to_string }}
+  </li>
+  {% endif %} {% if page.read %}
+  <li>
+    <i class="helpericon fa-clock"><span class="label">clock</span></i
+    >{{ page.read }} min read
+  </li>
+  {% endif %}
 </ul>
 
-<p class="meta"><i class="helpericon fa-file-alt"><span class="label">description</span></i>{{ page.description |
-    default:
-    "" }}</p>
+<p class="meta">
+  <i class="helpericon fa-file-alt"><span class="label">description</span></i
+  >{{ page.description | default: "" }}
+</p>
 
 {{ content }}
 
-<script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"
+></script>
 <!-- http://flennerhag.com/2017-01-14-latex/ -->
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['\[', '\]'], ['\\[', '\\]']],
-    processEscapes: true},
-    jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
-    extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
-    TeX: {
-    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-    equationNumbers: {
-    autoNumber: "AMS"
-    }
-    }
-    });
-    </script>
+  MathJax.Hub.Config({
+  tex2jax: {
+  inlineMath: [['$','$'], ['\\(','\\)']],
+  displayMath: [['\[', '\]'], ['\\[', '\\]']],
+  processEscapes: true},
+  jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+  extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+  TeX: {
+  extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+  equationNumbers: {
+  autoNumber: "AMS"
+  }
+  }
+  });
+</script>
