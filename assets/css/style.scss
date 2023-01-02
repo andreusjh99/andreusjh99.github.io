@@ -4,7 +4,12 @@
 @import url(architect-custom.css);
 @import url(fontawesome-all.min.css);
 
-// icons
+body.light-mode {
+    color: #000000;
+    background: #ffffff;
+}
+
+// icons in sidebar
 ul.icons {
     cursor:pointer;
     list-style: none;

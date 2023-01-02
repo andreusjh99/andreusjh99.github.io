@@ -24,6 +24,12 @@
     {% include head-custom.html %}
 </head>
 
+<script>
+
+    
+
+</script>
+
 <body>
     <header>
         <div class="inner">
@@ -48,8 +54,11 @@
     <button onclick="topFunction()" class="solid fa-angle-double-up" id="toTopBtn" title="Go to top"><span
             class="label">Top</span></button>
 
+    <button onclick="toggleLightMode()">Toggle light mode</button>
+            
     <div id="content-wrapper">
         <div class="inner clearfix">
+
             <section id="main-content">
                 {{ content }}
             </section>
@@ -92,6 +101,49 @@
 </body>
 
 <script>
+
+    bodyElement = document.body;
+
+    if (localStorage.getItem("theme") == null) {
+        localStorage.setItem("theme", "dark"); // by default, dark theme
+        bodyElement.classList.remove("light-mode");
+    } else if (localStorage.getItem("theme") == "dark") {
+        bodyElement.classList.remove("light-mode");
+    } else if (localStorage.getItem("theme") == "light") {
+        bodyElement.classList.add("light-mode");
+    }
+
+    function toggleLightMode() {
+
+        var theme = localStorage.getItem("theme");
+        console.log("theme -> " + theme + " <- theme");
+        
+        // if(theme == null){
+        //     console.log("theme is null");
+        // } else {
+        //     console.log("theme is not null");
+        // }
+
+        switch(theme) {
+            case "dark":
+                bodyElement.classList.add("light-mode");
+                theme = "light";
+                break;
+            case "light":
+                bodyElement.classList.remove("light-mode");
+                theme = "dark";
+                break;
+        }
+
+        console.log("theme -> " + theme + " <- theme");
+        localStorage.setItem("theme", theme);
+
+        
+        // element.classList.toggle("light-mode");
+    }
+
+
+
     // get the button
     toTopButton = document.getElementById("toTopBtn");
 
@@ -121,7 +173,6 @@
         document.documentElement.scrollTop = 0;
 
     }
-
 </script>
 
 </html>
