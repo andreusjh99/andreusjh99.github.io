@@ -104,42 +104,64 @@
 
     bodyElement = document.body;
 
+    headers = ["h1", "h2", "h3", "h4", "h5", "h6"];
+    headerElements = [];
+
+    for (var i = 0; i < headers.length; i++) {
+        hxElements = document.getElementsByTagName(headers[i]);
+        for (var j = 0; j < hxElements.length; j++) {
+            headerElements.push(hxElements[j]);
+        }
+    }
+
+    // h1Elements = document.getElementsByTagName("h1");
+
+    // console.log("bodyElement: " + bodyElement);
+    // console.log("h1Element: " + h1Element.length);
+    // console.log("h1Element: " + h1Element[1]);
+
     if (localStorage.getItem("theme") == null) {
         localStorage.setItem("theme", "dark"); // by default, dark theme
         bodyElement.classList.remove("light-mode");
+        for (var i = 0; i < headerElements.length; i++) {
+            headerElements[i].classList.remove("light-mode");
+        }
     } else if (localStorage.getItem("theme") == "dark") {
         bodyElement.classList.remove("light-mode");
+        for (var i = 0; i < headerElements.length; i++) {
+            headerElements[i].classList.remove("light-mode");
+        }
     } else if (localStorage.getItem("theme") == "light") {
         bodyElement.classList.add("light-mode");
+        for (var i = 0; i < headerElements.length; i++) {
+            headerElements[i].classList.add("light-mode");
+        }
     }
 
     function toggleLightMode() {
 
         var theme = localStorage.getItem("theme");
-        console.log("theme -> " + theme + " <- theme");
-        
-        // if(theme == null){
-        //     console.log("theme is null");
-        // } else {
-        //     console.log("theme is not null");
-        // }
+        // console.log("theme -> " + theme + " <- theme");
 
         switch(theme) {
             case "dark":
                 bodyElement.classList.add("light-mode");
+                for (var i = 0; i < headerElements.length; i++) {
+                    headerElements[i].classList.add("light-mode");
+                }
                 theme = "light";
                 break;
             case "light":
                 bodyElement.classList.remove("light-mode");
+                for (var i = 0; i < headerElements.length; i++) {
+                    headerElements[i].classList.remove("light-mode");
+                }
                 theme = "dark";
                 break;
         }
 
-        console.log("theme -> " + theme + " <- theme");
+        // console.log("theme -> " + theme + " <- theme");
         localStorage.setItem("theme", theme);
-
-        
-        // element.classList.toggle("light-mode");
     }
 
 

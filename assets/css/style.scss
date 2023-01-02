@@ -9,6 +9,37 @@ body.light-mode {
     background: #ffffff;
 }
 
+#main-content h1.light-mode {
+    color: #004288;
+}
+
+#main-content h2.light-mode {
+    font-size: 1.8em;
+    color: #004288;
+}
+
+#main-content h3.light-mode {
+    font-size: 1.4em;
+    color: #004288;
+}
+
+#main-content h4.light-mode {
+    color: #004288;
+}
+
+#main-content h5.light-mode {
+    color: #004288;
+}
+
+#main-content h6.light-mode {
+    color: #004288;
+}
+
+
+a.post-title-link {
+    font-weight: bold;
+}
+
 // icons in sidebar
 ul.icons {
     cursor:pointer;
