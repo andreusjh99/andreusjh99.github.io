@@ -13,6 +13,15 @@ body.light-mode {
     background: #ffffff;
 }
 
+// flip over the colours in dark mode
+a.light-mode {
+    color: #275d97;
+    
+    &:hover {
+        color: #469fff;
+    }
+}
+
 #main-content h1.light-mode {
     color: var(--header-light-mode-colour);
 

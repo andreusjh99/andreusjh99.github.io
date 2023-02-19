@@ -7,6 +7,7 @@
 
 :root {
     --header-def-colour: #9ddcff;
+    --sidebar-bcolour: #469fff;
 }
 
 body {
@@ -18,9 +19,10 @@ body {
 
 a {
     color: #469fff;
-}
-a.hover {
-    color: #2c82dd;
+    
+    &:hover {
+        color: #275d97;
+    }
 }
 
 header h1 {
@@ -29,7 +31,7 @@ header h1 {
 
 aside#sidebar {
     background: none;
-    border-left: solid 1px #469fff;
+    border-left: solid 1px var(--sidebar-bcolour);
 }
 
 header a.button {
@@ -114,7 +116,7 @@ blockquote {
 @media only screen and (max-width: 767px) {
 
     aside#sidebar {
-        border-top: solid 1px #469fff;
+        border-top: solid 1px var(--sidebar-bcolour);
         border-left: none;
     }
 }

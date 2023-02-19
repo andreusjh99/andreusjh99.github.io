@@ -24,12 +24,6 @@
     {% include head-custom.html %}
 </head>
 
-<script>
-
-    
-
-</script>
-
 <body onload="onload()">
     <header>
         <div class="inner">
@@ -106,6 +100,7 @@
 
     const headers = ["h1", "h2", "h3", "h4", "h5", "h6"];
     const headerElements = [];
+    const aElements = document.querySelectorAll("a");
 
     function onload() {
 
@@ -122,15 +117,24 @@
             for (var i = 0; i < headerElements.length; i++) {
                 headerElements[i].classList.remove("light-mode");
             }
+            for (var i = 0; i < aElements.length; i++) {
+                aElements[i].classList.remove("light-mode");
+            }
         } else if (localStorage.getItem("theme") == "dark") {
             bodyElement.classList.remove("light-mode");
             for (var i = 0; i < headerElements.length; i++) {
                 headerElements[i].classList.remove("light-mode");
             }
+            for (var i = 0; i < aElements.length; i++) {
+                aElements[i].classList.remove("light-mode");
+            }
         } else if (localStorage.getItem("theme") == "light") {
             bodyElement.classList.add("light-mode");
             for (var i = 0; i < headerElements.length; i++) {
                 headerElements[i].classList.add("light-mode");
+            }
+            for (var i = 0; i < aElements.length; i++) {
+                aElements[i].classList.add("light-mode");
             }
         }
     }
@@ -146,12 +150,18 @@
                 for (var i = 0; i < headerElements.length; i++) {
                     headerElements[i].classList.add("light-mode");
                 }
+                for (var i = 0; i < aElements.length; i++) {
+                    aElements[i].classList.add("light-mode");
+                }
                 theme = "light";
                 break;
             case "light":
                 bodyElement.classList.remove("light-mode");
                 for (var i = 0; i < headerElements.length; i++) {
                     headerElements[i].classList.remove("light-mode");
+                }
+                for (var i = 0; i < aElements.length; i++) {
+                    aElements[i].classList.remove("light-mode");
                 }
                 theme = "dark";
                 break;
