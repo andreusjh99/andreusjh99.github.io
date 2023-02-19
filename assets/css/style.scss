@@ -2,10 +2,12 @@
 ---
 
 @import url(architect-custom.css);
-@import url(fontawesome-all.min.css);
+// @import url(fontawesome-all.min.css);
 
 :root {
     --header-light-mode-colour: #004288;
+    --fontawesome: 'Font Awesome 6 Free';
+    --fontawesomebrands: 'Font Awesome 6 Brands';
 }
 
 body.light-mode {
@@ -115,7 +117,7 @@ ul.icons {
         text-rendering: auto;
         line-height: 1;
         text-transform: none !important;
-        font-family: 'Font Awesome 5 Free';
+        font-family: var(--fontawesome);
         font-weight: 400;
         line-height: inherit;
     }
@@ -126,7 +128,7 @@ ul.icons {
 
     &.brands:before {
         // color: black;
-        font-family: 'Font Awesome 5 Brands';
+        font-family: var(--fontawesomebrands);
     }
 
 }
@@ -164,7 +166,7 @@ ul.icons {
         text-rendering: auto;
         line-height: 1;
         text-transform: none !important;
-        font-family: 'Font Awesome 5 Free';
+        font-family: var(--fontawesome);
         font-weight: 900;
         line-height: inherit;
         color: white;
@@ -196,7 +198,7 @@ html {
         text-rendering: auto;
         line-height: 1;
         text-transform: none !important;
-        font-family: 'Font Awesome 5 Free';
+        font-family: var(--fontawesome);
         font-weight: 900;
         line-height: inherit;
         // color: white;
