@@ -4,37 +4,59 @@
 @import url(architect-custom.css);
 @import url(fontawesome-all.min.css);
 
+:root {
+    --header-light-mode-colour: #004288;
+}
+
 body.light-mode {
     color: #000000;
     background: #ffffff;
 }
 
 #main-content h1.light-mode {
-    color: #004288;
+    color: var(--header-light-mode-colour);
+
+    &:before {
+        color: var(--header-light-mode-colour);
+    }
 }
 
 #main-content h2.light-mode {
     font-size: 1.8em;
-    color: #004288;
+    color: var(--header-light-mode-colour);
+    &:before {
+        color: var(--header-light-mode-colour);
+    }    
 }
 
 #main-content h3.light-mode {
     font-size: 1.4em;
-    color: #004288;
+    color: var(--header-light-mode-colour);
+    &:before {
+        color: var(--header-light-mode-colour);
+    }    
 }
 
 #main-content h4.light-mode {
-    color: #004288;
+    color: var(--header-light-mode-colour);
+    &:before {
+        color: var(--header-light-mode-colour);
+    }    
 }
 
 #main-content h5.light-mode {
-    color: #004288;
+    color: var(--header-light-mode-colour);
+    &:before {
+        color: var(--header-light-mode-colour);
+    }    
 }
 
 #main-content h6.light-mode {
-    color: #004288;
+    color: var(--header-light-mode-colour);
+    &:before {
+        color: var(--header-light-mode-colour);
+    }    
 }
-
 
 a.post-title-link {
     font-weight: bold;

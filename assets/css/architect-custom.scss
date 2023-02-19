@@ -5,6 +5,10 @@
 
 // This scss file is to customise the default architect 0.2.0 theme css
 
+:root {
+    --header-def-colour: #9ddcff;
+}
+
 body {
     font-size: 16px;
     line-height: 1.75;
@@ -50,29 +54,47 @@ pre code {
 }
 
 #main-content h1 {
-    color: #9ddcff;
+    color: var(--header-def-colour);
+    &:before {
+        color: var(--header-def-colour);
+    }
 }
 
 #main-content h2 {
     font-size: 1.8em;
-    color: #9ddcff;
+    color: var(--header-def-colour);
+    &:before {
+        color: var(--header-def-colour);
+    }    
 }
 
 #main-content h3 {
     font-size: 1.4em;
-    color: #9ddcff;
+    color: var(--header-def-colour);
+    &:before {
+        color: var(--header-def-colour);
+    }    
 }
 
 #main-content h4 {
-    color: #9ddcff;
+    color: var(--header-def-colour);
+    &:before {
+        color: var(--header-def-colour);
+    }    
 }
 
 #main-content h5 {
-    color: #9ddcff;
+    color: var(--header-def-colour);
+    &:before {
+        color: var(--header-def-colour);
+    }    
 }
 
 #main-content h6 {
-    color: #9ddcff;
+    color: var(--header-def-colour);
+    &:before {
+        color: var(--header-def-colour);
+    }    
 }
 
 blockquote {
