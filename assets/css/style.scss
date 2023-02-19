@@ -2,12 +2,9 @@
 ---
 
 @import url(architect-custom.css);
-// @import url(fontawesome-all.min.css);
 
 :root {
     --header-light-mode-colour: #004288;
-    --fontawesome: 'Font Awesome 6 Free';
-    --fontawesomebrands: 'Font Awesome 6 Brands';
 }
 
 body.light-mode {
@@ -69,8 +66,28 @@ a.light-mode {
     }    
 }
 
+// remove stroke for post titles
+#main-content h1.post-title {
+    font-weight: bold;
+
+    &:before {
+        content: none;
+    }
+}
+
 a.post-title-link {
     font-weight: bold;
+}
+
+// icons
+.icon {
+    border-bottom: none;
+    position: relative;
+
+    > .label {
+        display: none;
+    }
+
 }
 
 // icons in sidebar
@@ -94,7 +111,6 @@ ul.icons {
         }
 
         .icon:before {
-
             width: 2.25rem;
             height: 2.25rem;
             line-height: 2.25rem;
@@ -102,13 +118,15 @@ ul.icons {
             text-align: center;
             border-radius: 100%;
             font-size: 1.5rem;
+            font-weight: 400;
         }
     }
 }
 
-.icon {
-    border-bottom: none;
-    position: relative;
+// helper icons in post headers
+.icon.helpericon {
+
+    padding-right: 10px;
 
     &:before {
         display: inline-block;
@@ -117,29 +135,29 @@ ul.icons {
         text-rendering: auto;
         line-height: 1;
         text-transform: none !important;
-        font-family: var(--fontawesome);
-        font-weight: 400;
+        font-weight: 900;
         line-height: inherit;
     }
-
-    > .label {
-        display: none;
-    }
-
-    &.brands:before {
-        // color: black;
-        font-family: var(--fontawesomebrands);
-    }
-
 }
 
+// post header alignments
+ul.post-header {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
 
-// remove stroke for post titles
-#main-content h1.post-title {
-    font-weight: bold;
+    li {
+        display: inline-block;
+        padding: 0 5.0rem 0 0;
+        vertical-align: middle;
 
-    &:before {
-        content: none;
+        &:last-child {
+            padding-right: 0;
+        }
+
+        color: #469fff;
     }
 }
 
@@ -155,8 +173,12 @@ ul.icons {
     background-color: #469fff;
     color: white;
     cursor: pointer;
-    padding: 8px 18px 8px 18px;
-    border-radius: 24px;
+    // padding: 8px 18px 8px 18px;
+    // padding: 8px 18px 8px 18px;
+    width: 50px;
+    height: 50px;
+    // border-radius: 24px;
+    border-radius: 50%;
     font-size: 1.25rem;
 
     &:before {
@@ -164,82 +186,23 @@ ul.icons {
         font-style: normal;
         font-variant: normal;
         text-rendering: auto;
-        line-height: 1;
         text-transform: none !important;
-        font-family: var(--fontawesome);
         font-weight: 900;
         line-height: inherit;
         color: white;
     }
+
+    &:hover {
+        background-color: #2c82dd;
+    }
 }
 
-#toTopBtn:hover {
-    background-color: #2c82dd;
-}
-
-button span.label {
+button>.label {
     display: none;
 }
 
+// so that it scrolls smoothly to the top
 html {
     scroll-behavior: smooth;
 }
 
-
-// helper icons in post headers
-.helpericon {
-
-    padding-right: 10px;
-
-    &:before {
-        display: inline-block;
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        line-height: 1;
-        text-transform: none !important;
-        font-family: var(--fontawesome);
-        font-weight: 900;
-        line-height: inherit;
-        // color: white;
-    }
-
-    span.label {
-        display: none;
-    }
-}
-
-// post header alignments
-ul.post-header {
-    // cursor:pointer;
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
-    // margin-bottom: 0;
-    // margin-left: 1rem;
-
-    li {
-        display: inline-block;
-        padding: 0 5.0rem 0 0;
-        vertical-align: middle;
-
-        &:last-child {
-            padding-right: 0;
-        }
-
-        color: #469fff;
-
-        // &:before {
-
-        //     width: 2.25rem;
-        //     height: 2.25rem;
-        //     line-height: 2.25rem;
-        //     display: inline-block;
-        //     text-align: center;
-        //     border-radius: 100%;
-        //     font-size: 1.5rem;
-        // }
-    }
-}
