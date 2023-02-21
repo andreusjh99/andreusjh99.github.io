@@ -53,7 +53,7 @@
                 class="label">Top</span></button>
             </li>
             <li>
-                <button onclick="toggleLightMode()" class="fa fa-brands fa-galactic-republic" id="darkModeBtn" title="Toggle light mode"><span class="label">Toggle light mode</span></button>
+                <button onclick="toggleLightMode()" class="fa fa-brands" id="darkModeBtn" title="Toggle light mode"><span class="label">Toggle light mode</span></button>
             </li>
         </ul>
     </div>
@@ -106,77 +106,51 @@
 
     const bodyElement = document.body;
 
-    const headers = ["h1", "h2", "h3", "h4", "h5", "h6"];
-    const headerElements = [];
-    const aElements = document.querySelectorAll("a");
+    const modeBtn = document.getElementById("darkModeBtn");
 
     function onload() {
 
-        for (var i = 0; i < headers.length; i++) {
-            const hxElements = document.getElementsByTagName(headers[i]);
-            for (var j = 0; j < hxElements.length; j++) {
-                headerElements.push(hxElements[j]);
-            }
-        }
-
         if (localStorage.getItem("theme") == null) {
             localStorage.setItem("theme", "dark"); // by default, dark theme
+        } 
+        
+        if (localStorage.getItem("theme") == "dark") {
             bodyElement.classList.remove("light-mode");
-            for (var i = 0; i < headerElements.length; i++) {
-                headerElements[i].classList.remove("light-mode");
-            }
-            for (var i = 0; i < aElements.length; i++) {
-                aElements[i].classList.remove("light-mode");
-            }
-        } else if (localStorage.getItem("theme") == "dark") {
-            bodyElement.classList.remove("light-mode");
-            for (var i = 0; i < headerElements.length; i++) {
-                headerElements[i].classList.remove("light-mode");
-            }
-            for (var i = 0; i < aElements.length; i++) {
-                aElements[i].classList.remove("light-mode");
-            }
+            // toggleModeButton("dark");
         } else if (localStorage.getItem("theme") == "light") {
             bodyElement.classList.add("light-mode");
-            for (var i = 0; i < headerElements.length; i++) {
-                headerElements[i].classList.add("light-mode");
-            }
-            for (var i = 0; i < aElements.length; i++) {
-                aElements[i].classList.add("light-mode");
-            }
+            // toggleModeButton("light");
         }
+
+        toggleModeButton(localStorage.getItem("theme"));
     }
 
     function toggleLightMode() {
 
         let theme = localStorage.getItem("theme");
-        // console.log("theme -> " + theme + " <- theme");
 
-        switch(theme) {
+        // to have transition-duration during toggling modes
+        bodyElement.classList.add("change");
+
+        setTimeout(() => {
+            switch(theme) {
             case "dark":
                 bodyElement.classList.add("light-mode");
-                for (var i = 0; i < headerElements.length; i++) {
-                    headerElements[i].classList.add("light-mode");
-                }
-                for (var i = 0; i < aElements.length; i++) {
-                    aElements[i].classList.add("light-mode");
-                }
                 theme = "light";
                 break;
             case "light":
                 bodyElement.classList.remove("light-mode");
-                for (var i = 0; i < headerElements.length; i++) {
-                    headerElements[i].classList.remove("light-mode");
-                }
-                for (var i = 0; i < aElements.length; i++) {
-                    aElements[i].classList.remove("light-mode");
-                }
                 theme = "dark";
                 break;
-        }
+            }
+            toggleModeButton(theme);
+        }, 100); // set timeout to ensure classlist "change" added
+        
 
-        // console.log("theme -> " + theme + " <- theme");
-        localStorage.setItem("theme", theme);
+        setTimeout(() => {
+            bodyElement.classList.remove("change"); // to remove transition-duration during normal page loading
+            localStorage.setItem("theme", theme);
+        }, 500);
     }
 
     // when the user scrolls, call scrollFunction
@@ -208,6 +182,22 @@
         document.documentElement.scrollTop = 0;
 
     }
+
+    function toggleModeButton(newMode) {
+        if (newMode === "dark") {
+            modeBtn.classList.remove("fa-jedi-order");
+            modeBtn.classList.add("fa-galactic-republic");
+
+            modeBtn.title = "Switch to light mode";
+
+        } else if (newMode === "light") {
+            modeBtn.classList.add("fa-jedi-order");
+            modeBtn.classList.remove("fa-galactic-republic");
+
+            modeBtn.title = "Switch to dark mode";
+        }
+    }
+
 </script>
 
 </html>

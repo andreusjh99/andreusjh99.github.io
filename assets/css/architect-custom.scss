@@ -8,13 +8,14 @@
 :root {
     --header-def-colour: #9ddcff;
     --sidebar-bcolour: #469fff;
+    --dark-bg: #001a35;
 }
 
 body {
     font-size: 16px;
     line-height: 1.75;
     color: #fafafa;
-    background: #001a35;
+    background: var(--dark-bg);
 }
 
 a {
