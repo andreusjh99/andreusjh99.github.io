@@ -33,6 +33,8 @@ header h1 {
 aside#sidebar {
     background: none;
     border-left: solid 1px var(--sidebar-bcolour);
+    position: sticky;
+    top: 30px;
 }
 
 header a.button {
