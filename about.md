@@ -5,11 +5,23 @@ title: About Me
 # permalink: /about/
 ---
 
-# About Me
+# About ME
 
 <!-- comment -->
+My full name is Chia Jing Heng. Most from the West will get my first name wrong at first glance (it's **Jing Heng**, not Chia by the way). Can't blame them. Malaysian Chinese like me have our names written with the last name-first name convention, rather than the more popular first name-last name convention. And no, Jing is not my middle name. We do not really have the concept of middle names in our culture. You can call me Andreus if you like. It is sort of like a nickname, only no one ever calls me that in real life, because I never really introduced myself as Andreus to anyone I know. It is more of a pseudoname that I use online.
+
+I am currently a software developer working at Sunway Money in Malaysia - my second full-time job after graduating from the University of Cambridge with a Masters in Engineering. I specialised in Information and Computer Engineering, and thus have a huge interest in software development and machine learning.
+
+I love watching films. Roger Ebert once wrote: 
+
+> Movies are, among other things, opportunities for escapism.
+    
+Indeed, movies allow me to momentarily experience another life, be it that of an astronaut wandering in space, or that of a superhero burgeoned with the responsibility of saving the world, or that of a taxi driver meandering through the mean streets of New York, or even that of a lion cub wanting to be king. Movies are, in a word, magical. I love how movies are able to move hearts and souls, to connect individuals from different backgrounds, and to shape cultures and societies.
+
+Therefore, consider this blog as a love letter to my passions. Here is a collection of my random thoughts, a documentation of my learnings, and a way for me to express my mind despite my lackluster writing ability.
 
 # CV
+**A bit more about myself...**
 ## Education
 - 2021 - MEng in Engineering - **University of Cambridge**, UK - Information and Computer Engineering
 - 2020 - BA in Engineering - **University of Cambridge**, UK
