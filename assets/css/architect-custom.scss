@@ -12,7 +12,7 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75;
     color: #fafafa;
     background: var(--dark-bg);
@@ -59,6 +59,8 @@ pre code {
 }
 
 #main-content h1 {
+    font-size: 1.8em;
+    font-weight: bold;
     color: var(--header-def-colour);
     &:before {
         color: var(--header-def-colour);
@@ -66,7 +68,7 @@ pre code {
 }
 
 #main-content h2 {
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: var(--header-def-colour);
     &:before {
         color: var(--header-def-colour);
@@ -103,7 +105,7 @@ pre code {
 }
 
 blockquote {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
