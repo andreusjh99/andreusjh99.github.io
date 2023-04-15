@@ -8,9 +8,11 @@ title: About Me
 # About ME
 
 <!-- comment -->
-My full name is Chia Jing Heng. Most from the West will get my first name wrong at first glance (it's **Jing Heng**, not Chia by the way). Can't blame them. Malaysian Chinese like me have our names written with the last name-first name convention, rather than the more popular first name-last name convention. And no, Jing is not my middle name. We do not really have the concept of middle names in our culture. You can call me Andreus if you like. It is sort of like a nickname, only no one ever calls me that in real life, because I never really introduced myself as Andreus to anyone I know. It is more of a pseudoname that I use online.
+My full name is Chia Jing Heng. First name: **Jing Heng**, last name: Chia.
 
-I am currently a software developer working at <a href="https://sunwaymoney.com/" target='_blank'>Sunway Money</a> in Malaysia - my second full-time job after graduating from the University of Cambridge with a Masters in Engineering. I specialised in Information and Computer Engineering, and thus have a huge interest in software development and machine learning.
+Most from the West will get my first name wrong at first glance. Can't blame them. Malaysian Chinese like me have our names written with the last name-first name convention, rather than the more popular first name-last name convention. You can call me Andreus if you like. It is sort of like a nickname, or more precisely a pseudoname that I use online.
+
+I am currently a software developer working at <a href="https://sunwaymoney.com/" target='_blank'>Sunway Money</a> in Malaysia - my second full-time job after graduating from the University of Cambridge with a Masters in Engineering. I specialised in Information and Computer Engineering, and I have a huge interest in software development and machine learning.
 
 I love watching films. Roger Ebert once wrote: 
 
