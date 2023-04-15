@@ -5,39 +5,12 @@
 
 :root {
     --header-light-mode-colour: #004288;
-}
-
-#main-content hr {
-    opacity: 70%;
-}
-
-#main-content img{
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    &[src$='#colour-correct'] {
-        // add blue filter onto images
-        filter: sepia(1) hue-rotate(190deg) saturate(400%);
-        -webkit-filter: sepia(1) hue-rotate(190deg) saturate(400%);
-    }
-}
-
-#main-content figcaption{
-    font-size: 0.8em;
-    opacity: 70%;
-}
-
-#main-content blockquote{
-    font-size: 18px;
-    border-left: 7px solid #888888;
+    --small-font: 0.8em;
+    --blur-opacity: 70%
 }
 
 // sidebar
 aside#sidebar {
-
-
 
     div.avatar img {
         width: 100px;
@@ -53,39 +26,80 @@ aside#sidebar {
     }
 }
 
+// post lists in home page
+div.posts {
+    a.post-title-link {
+        font-weight: bold;
+    }
+    
+    p.post-description {
+        font-size: var(--small-font);
+        opacity: var(--blur-opacity);
+    }
+}
+
+// --------------
+// Posts page
+
 // remove stroke for post titles
 #main-content h1.post-title {
     font-size: 2em;
 }
 
-#main-content p.meta {
-    font-size: 0.8em;
-    opacity: 0.7;
-}
+div.post-header {
+    font-size: var(--small-font);
 
-a.post-title-link {
-    font-weight: bold;
-}
-
-// post header alignments
-ul.post-header {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
-    font-size: 0.8em;
-
-    li {
-        display: inline-block;
-        padding: 0 5.0rem 0 0;
-        vertical-align: middle;
-
-        &:last-child {
-            padding-right: 0;
+    #main-content p.meta {
+        opacity: 0.7;
+    }
+    
+    // post header alignments
+    ul {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-grow: 0;
+        flex-shrink: 0;
+    
+        li {
+            display: inline-block;
+            padding: 0 5.0rem 0 0;
+            vertical-align: middle;
+    
+            &:last-child {
+                padding-right: 0;
+            }
+    
+            color: #469fff;
         }
+    }
+}
 
-        color: #469fff;
+#main-content {
+    hr {
+        opacity: var(--blur-opacity);
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        &[src$='#colour-correct'] {
+            // add blue filter onto images
+            filter: sepia(1) hue-rotate(190deg) saturate(400%);
+            -webkit-filter: sepia(1) hue-rotate(190deg) saturate(400%);
+        }
+    }
+
+    figcaption{
+        font-size: var(--small-font);
+        opacity: var(--blur-opacity);
+    }
+
+    blockquote{
+        font-size: 18px;
+        border-left: 7px solid #888888;
     }
 }
 
@@ -263,8 +277,10 @@ body.light-mode {
         color: var(--dark-bg);
     }
 
-    ul.post-header li {
-        color: #275d97;
+    div.post-header {
+        li {
+            color: #275d97;
+        }
     }
 
     aside#sidebar div.avatar img {
