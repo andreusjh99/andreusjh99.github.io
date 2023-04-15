@@ -29,21 +29,33 @@
     opacity: 70%;
 }
 
+#main-content blockquote{
+    font-size: 18px;
+    border-left: 7px solid #888888;
+}
+
 // sidebar
-aside#sidebar div.avatar img {
-    width: 100px;
-    border-radius: 50%;
-    padding: 5px;
-    border: 1px solid #469fff;
+aside#sidebar {
+
+
+
+    div.avatar img {
+        width: 100px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 1px solid #469fff;
+
+        transition: border-radius 0.5s ease-in-out;
+
+        &:hover {
+            border-radius: 10%;
+        }
+    }
 }
 
 // remove stroke for post titles
 #main-content h1.post-title {
     font-size: 2em;
-
-    // &:before {
-    //     content: none;
-    // }
 }
 
 #main-content p.meta {
