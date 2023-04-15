@@ -24,5 +24,21 @@ Some notes (for myself):
         
         $ bundle install
 
-1. 
+5. Referencing one post url from another post:
+   
+        {% post_url 2021-09-22-automatic-speech-recognition %}
+
+6. Adding css styling to images in markdown:
+
+    A hack to use will be to include your class at the end of your image source like this
+
+        ![alt-text](img-src#your-class)
+
+    Here `img-src` is the image source, i.e. the path to the image.
+
+    In your css, you can then reference the images with the following selector
+
+        img[src$='#your-class'] {
+            ...
+        }
 

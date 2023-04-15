@@ -7,6 +7,28 @@
     --header-light-mode-colour: #004288;
 }
 
+#main-content hr {
+    opacity: 70%;
+}
+
+#main-content img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    &[src$='#colour-correct'] {
+        // add blue filter onto images
+        filter: sepia(1) hue-rotate(190deg) saturate(400%);
+        -webkit-filter: sepia(1) hue-rotate(190deg) saturate(400%);
+    }
+}
+
+#main-content figcaption{
+    font-size: 0.8em;
+    opacity: 70%;
+}
+
 // sidebar
 aside#sidebar div.avatar img {
     width: 100px;
@@ -15,14 +37,13 @@ aside#sidebar div.avatar img {
     border: 1px solid #469fff;
 }
 
-
 // remove stroke for post titles
 #main-content h1.post-title {
     font-size: 2em;
 
-    &:before {
-        content: none;
-    }
+    // &:before {
+    //     content: none;
+    // }
 }
 
 #main-content p.meta {
@@ -200,7 +221,11 @@ html {
 
 body.light-mode {
     color: #000000;
-    background: #ffffff;
+    background: #eeeeee;
+
+    hr {
+        border-color: #000000;
+    }
 
     // flip over the colours in dark mode
     a {

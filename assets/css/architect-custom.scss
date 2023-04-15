@@ -8,7 +8,7 @@
 :root {
     --header-def-colour: #9ddcff;
     --sidebar-bcolour: #469fff;
-    --dark-bg: #001a35;
+    --dark-bg: #252525;
 }
 
 body {
@@ -58,50 +58,31 @@ pre code {
     background-color: #252520;
 }
 
-#main-content h1 {
-    font-size: 1.8em;
-    font-weight: bold;
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6
+{
     color: var(--header-def-colour);
     &:before {
         color: var(--header-def-colour);
+        content: none;
     }
 }
 
+#main-content h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
 #main-content h2 {
-    font-size: 1.6em;
-    color: var(--header-def-colour);
-    &:before {
-        color: var(--header-def-colour);
-    }    
+    font-size: 1.6em; 
 }
 
 #main-content h3 {
-    font-size: 1.4em;
-    color: var(--header-def-colour);
-    &:before {
-        color: var(--header-def-colour);
-    }    
-}
-
-#main-content h4 {
-    color: var(--header-def-colour);
-    &:before {
-        color: var(--header-def-colour);
-    }    
-}
-
-#main-content h5 {
-    color: var(--header-def-colour);
-    &:before {
-        color: var(--header-def-colour);
-    }    
-}
-
-#main-content h6 {
-    color: var(--header-def-colour);
-    &:before {
-        color: var(--header-def-colour);
-    }    
+    font-size: 1.4em;  
 }
 
 blockquote {
