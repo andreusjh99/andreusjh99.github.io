@@ -4,6 +4,8 @@ title: Unbreakable (2000) - Review
 date:   2021-09-22
 read: 8
 description: Directed by&#58; M. Night Shyamalan; Written by&#58; M. Night Shyamalan 
+director: M.Night Shyamalan
+screenplay: M.Night Shyamalan
 rating: 9.5/10
 categories: film review
 ---
@@ -14,7 +16,7 @@ categories: film review
 
 <figure class="film">
   <img src="/assets/images/posts/4_R_Unbreakable/post.jpg" alt="Unbreakable movie still">
-  <figcaption>M. Night Shyamalan's Unbreakable </figcaption>
+  <figcaption><i class="fa-solid fa-film"></i> M. Night Shyamalan's Unbreakable </figcaption>
 </figure>
 
 **Unbreakable** is a superhero origin film told in a thriller, drama format. It is a story about finding your place in the world. 
@@ -29,7 +31,7 @@ The characters of David and Elijah were really well-written, and they could only
 
 <figure>
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/fNeCB2ALNoA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <figcaption>Trailer for Unbreakable (2000)</figcaption>
+  <figcaption><i class="fa-brands fa-youtube"></i> Trailer for Unbreakable (2000)</figcaption>
 </figure>
 
 Both score and cinematography were absolutely perfect for this film. James Newton Howard is undeniably a master. With a minimalistic score, he padded the film with rich emotions and energy that only a handful could manage. Eduardo Serra was marvellous as well. With huge attention to detail and trust for the audience, he and Shyamalan crafted a gorgeous and intelligent visual canvas for the film. Colours were used meticulously in scenes, camera shots were chosen and used wisely, and so were the long takes for engaging and deeply emotional sequences. One should only sit back and appreciate how much work was put into telling the story visually. 
