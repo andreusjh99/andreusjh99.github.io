@@ -263,6 +263,11 @@ body.light-mode {
     }
 
     #main-content {
+
+        h1:not(.post-title) {
+            border-bottom-color: var(--header-light-mode-colour);
+        }
+
         h1,h2,h3,h4,h5,h6 {
             color: var(--header-light-mode-colour);
 

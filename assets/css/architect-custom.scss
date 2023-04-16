@@ -75,6 +75,11 @@ pre code {
 #main-content h1 {
     font-size: 1.8em;
     font-weight: bold;
+    
+    &:not(.post-title) {
+        margin-bottom: 0.5em;
+        border-bottom: 2px dashed #9ddcff;
+    }
 }
 
 #main-content h2 {
@@ -84,10 +89,6 @@ pre code {
 #main-content h3 {
     font-size: 1.4em;  
 }
-
-// blockquote {
-//     font-size: 18px;
-// }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {

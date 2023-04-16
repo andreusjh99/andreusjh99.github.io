@@ -139,7 +139,7 @@ A reinforcement learning model does the same thing. Take an example of a model t
 <figcaption>1997: Garry Kasparov vs. Deep Blue</figcaption>
 </figure>
 
-Reinforcement learning is in fact the main algorithm behind the iconic defeat of chess world champion Garry Kasparov by [Deep Blue](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) in a historic [six-game match](https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov) in 1997. Since then, more models have been created that are able to defeat world champion human players in various games of even higher complexity like [AlphaGo](https://en.wikipedia.org/wiki/AlphaGo) in the chess game Go and [OpenAI Five](https://en.wikipedia.org/wiki/OpenAI_Five) in the multiplayer online game Dota 2.
+Reinforcement learning is in fact the main algorithm behind the iconic defeat of chess world champion Garry Kasparov by <a href="https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)" target="_blank">Deep Blue</a> in a historic <a href="https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov" target="_blank">six-game match</a> in 1997. Since then, more models have been created that are able to defeat world champion human players in various games of even higher complexity like <a href="https://www.deepmind.com/research/highlighted-research/alphago" target="_blank">AlphaGo</a> in the chess game Go and <a href="https://openai.com/research/openai-five-defeats-dota-2-world-champions#timeline" target="_blank">OpenAI Five</a> in the multiplayer online game Dota 2.
 
 # Conclusion
 

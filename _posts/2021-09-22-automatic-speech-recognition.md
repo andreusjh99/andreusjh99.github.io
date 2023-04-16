@@ -9,13 +9,18 @@ categories: machine learning
 
 ---
 
+![](/assets/images/posts/3_ASR/post.png#colour-correct)
 # ASR
 
-**Automatic speech recognition (ASR)** is the task of processing human speech into written format. In other words, 
+**Automatic speech recognition (ASR)** is the task of processing human speech into written format. 
+
+In other words, 
 
 >ASR is the task of transcribing speech. 
 
 ASR has widespread applications in many fields, including healthcare, domotic appliance control, military, education etc., and it can be found everywhere: in live TV shows, in video calls, services for the hearing impaired, and most commonly, in our phones.
+
+<hr style="border-style: dashed">
 
 This post briefly covers: 
 - traditional ASR,
@@ -23,14 +28,16 @@ This post briefly covers:
 - inputs and outputs of these systems, and 
 - end-to-end model architectures for ASR.
 
+<hr style="border-style: dashed">
+
 ## Traditional ASR
 
 Traditionally, an ASR system has multiple modules: 
-- an **acoustic model** to model the acoustic features, 
+- an **acoustic model** to model the acoustic features in an audio, 
 - a **language model** to model text, and 
-- a **pronunciation lexicon** to link words to phonemes. 
+- a **pronunciation lexicon** to link words to phonemes (see [below](#phonemes))
  
-These modules are typically **optimised independently** from each other, contributing to the complexity in building, training and storing these systems. This has led to research into developing end-to-end approaches to ASR that will help alleviate these issues.
+These modules work together in an integrated fashion, allowing for high-accuracy speech recognition. However, the modules are typically **optimised independently** from each other, contributing to the complexity in building, training and storing these systems. This has led to research into developing end-to-end approaches to ASR that will help alleviate these issues.
 
 ## End-to-end ASR
 
@@ -44,13 +51,14 @@ The key advantage of such approach is the ability to *jointly train the acoustic
 
 ## Inputs
 
-The input of an ASR system is audio recordings. To allow the models to perform better, however, **features are extracted** from the audio sequences in a preprocessing step. These extracted acoustic features are then passed into the models instead of the raw audio recording.
+The input of an ASR system is audio recordings, as you may expect for a speech recognition system. To allow the models to perform better, however, **features are extracted** from the audio sequences in a preprocessing step. These extracted acoustic features are then passed into the models instead of the raw audio recording.
 
 Two popular forms of input acoustic features for ASR are:
-1. the <a href="https://asset-pdf.scinapse.io/prod/2062826588/2062826588.pdf" target="_blank">**Mel-Frequency Cepstral Coefficients (MFCCs)**</a> 
-2. the **Mel filter bank coefficients**. 
+1. the **Mel filter bank coefficients**. 
+2. the <a href="https://asset-pdf.scinapse.io/prod/2062826588/2062826588.pdf" target="_blank">**Mel-Frequency Cepstral Coefficients (MFCCs)**</a> 
+
  
-The generation of both types of features from raw audio signals follow a similar procedure. In this procedure, the Mel filter bank coefficients are computed first. The MFCCs can then be obtained (if needed) from the filter bank coefficients with additional processing (see <a href="https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html" target="_blank">here</a> for more info). 
+The generation of both types of features from raw audio signals follow a similar procedure. In this procedure, the Mel filter bank coefficients are computed first. The MFCCs can then be obtained (if needed) from the filter bank coefficients with additional processing. 
 
 Typically, the procedure goes like this:
 1. An audio signal goes through a **pre-emphasis filter** to amplify the high frequencies.
@@ -63,15 +71,19 @@ Typically, the procedure goes like this:
     
 5. (For MFCCs,) **Discrete Cosine Transform** is applied to the filter banks to decorrelate the filterbank coefficients. The higher coefficients are discarded as they typically represent noise in the original signal. The result is the **MFCCs** for every frame.
 
-The extra step (step 5) for computing the MFCCs are motivated by the need to decorrelate the coefficients for some machine learning algorithms such as the Gaussian Mixture Models - Hidden Markov Models (GMM-HMM) typically used in traditional ASR systems. 
+For more details into each step, you could check out this <a href="https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html" target="_blank">link</a> for more info.
 
-**Deep neural networks** typically used in end-to-end ASR, on the other hand, are less susceptible to highly correlated input. Mel filter bank coefficients are therefore suitable for these networks and for end-to-end ASR.
+The extra step (step 5) for computing the MFCCs are motivated by the need to decorrelate the Mel filterbank coefficients for some machine learning algorithms such as the Gaussian Mixture Models - Hidden Markov Models (GMM-HMM) typically used in **traditional ASR systems**. 
+
+**Deep neural networks** typically used in **end-to-end ASR**, on the other hand, are less susceptible to highly correlated input. Mel filter bank coefficients are therefore suitable for these networks and for end-to-end ASR.
 
 ## Outputs
 
-The output of an ASR system is text. How do we represent text? 
+The output of an ASR system is text. There are a few ways to represent text:
+- phonemes
+- words and subwords
 
-### Phonemes
+### Phonemes {#phonemes}
 
 Traditional ASR systems are typically phonetic-based. Therefore, the output text sequences for these systems are represented in the form of **phonemes**. 
 
@@ -81,23 +93,31 @@ Words can be represented by sequences of phonemes. For example,
 
 > "cane" → "/k/", "/ã/", "/n/"
 
-Therefore, systems using phonemes require a pronunciation lexicon to convert words to sequences of phonemes. As a result, the systems are not able to recognise words not in the lexicon, or *out-of-vocabulary (OOV) words*. (An ASR system has a vocabulary of words that it can recognise. Words that are not in the vocabulary are beyond the system's capabilities. OOV words are words not in the vocabulary.)
+Therefore, systems using phonemes require a pronunciation lexicon to convert words to sequences of phonemes. As a result, the systems are not able to recognise words not in the lexicon, or *out-of-vocabulary (OOV) words*. 
+
+<hr style="border-style: dashed">
+An ASR system has a vocabulary of words that it can recognise. Words that are not in the vocabulary are beyond the system's capabilities. OOV words are words not in the vocabulary.
+<hr style="border-style: dashed">
 
 ### Words and subwords
 
-In end-to-end ASR, acoustic features can be mapped directly to the outputs. Therefore, words (or subword units) are more commonly used. Output units like **characters**, **subword units** and **words** are often used. For the English language:
+In end-to-end ASR, acoustic features can be mapped directly to the text outputs. Therefore, words (or subword units) are more commonly used. Output units like **characters**, **subword units** and **words** are often used. For the English language:
 
 - **Words** (For eg. "Cambridge")
 
 - **Characters** (For eg. "C", "a", "m", "b", "r", "i", "d", "g", "e")
 
-- **Subword units** (For eg. "Cam", "bridge"). There are two popular methods of performing subword segmentation: <a href="https://aclanthology.org/P18-1007.pdf" target="_blank">unigram language model (ULM)</a> and <a href="https://arxiv.org/pdf/1209.1045.pdf" target="_blank">Byte Pair Encoding (BPE)</a>.
+- **Subword units** (For eg. "Cam", "bridge"). 
+  
+  There are two popular methods of performing subword segmentation: <a href="https://aclanthology.org/P18-1007.pdf" target="_blank">unigram language model (ULM)</a> and <a href="https://arxiv.org/pdf/1209.1045.pdf" target="_blank">Byte Pair Encoding (BPE)</a>.
 
 # End-to-end Model Architectures
 
+End-to-end systems are gaining popularity due to its simplicity to train and build as compared to their traditional counterparts. Since the introduction of the idea in 2006, there have been various model architectures created for an end-to-end approach to ASR. Some of the key ones are outlined in this section.
+
 ## Streaming models
 
-The earliest attempt at end-to-end ASR came in the form of the **Connectionist Temporal Classification (CTC) loss function** developed by Alex Graves in <a href="https://www.cs.toronto.edu/~graves/icml_2006.pdf" target="_blank"> this paper</a>. This was further improved by Alex Graves in <a href="https://arxiv.org/pdf/1211.3711.pdf" target="_blank">this paper</a> to form the **Recurrent Neural Network Transducer (RNN-T)**.
+The earliest attempt at end-to-end ASR came in the form of the **Connectionist Temporal Classification (CTC) loss function** developed by Alex Graves in <a href="https://www.cs.toronto.edu/~graves/icml_2006.pdf" target="_blank"> this paper</a> in 2006. This was further improved by Alex Graves in <a href="https://arxiv.org/pdf/1211.3711.pdf" target="_blank">this paper</a> in 2012 to form the **Recurrent Neural Network Transducer (RNN-T)**.
 
 The basis for both the CTC and the RNN-T is <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network" target="_blank">**recurrent neural networks (RNNs)**</a>. RNNs are effective in modelling sequences of data, such as sequences of audio frames and sequences of text units. However, for **real-time ASR**, RNNs require both the input and output sequences to be of the same length. This is not always the case for ASR where the input audio sequences are most often longer than the output text sequences.
 
@@ -109,9 +129,9 @@ CTC and RNN-T are attempts to work around this. They enable the RNNs to perform 
 
 Another popular form of end-to-end ASR models are <a href="https://arxiv.org/pdf/1506.07503.pdf" target="_blank">**attention-based models**</a>, also commonly known as **sequence-to-sequence models**. 
 
-Briefly, the attention mechanism used in these models decides which input frames are important when predicting the output text units, thus paying more attention to frames that are important. 
+Briefly speaking, given an entire audio sequence, the attention mechanism used in these models decides which input frames are important when predicting the output text units. This allows the models to pay more attention to frames that are important while predicting the output text.
 
-The attention mechanism was first used by Alex Graves in <a href="https://arxiv.org/pdf/1308.0850.pdf" target="_blank">this paper</a> and was integrated into ASR by Jan Chorowski in <a href="https://arxiv.org/pdf/1412.1602.pdf" target="_blank">this paper</a>, producing promising results. This was then further developed into encoder-decoder based models like:
+The attention mechanism was <a href="https://arxiv.org/pdf/1308.0850.pdf" target="_blank">first used by Alex Graves</a> in 2014 and was <a href="https://arxiv.org/pdf/1412.1602.pdf" target="_blank">integrated into ASR by Jan Chorowski</a>, producing promising results. This was then further developed into encoder-decoder based models like:
 
 - the <a href="https://arxiv.org/pdf/1508.01211.pdf" target="_blank">Listen, Attend and Spell (LAS)</a> model,
 
@@ -129,11 +149,11 @@ Unlike CTC and RNN-T, these attention-based models are not able to perform strea
 
 3. End-to-end ASR systems takes in audio and directly converts them to text.
    
-4. 2 common audio input features are MFCCs and Mel Filterbank coefficients.
+4. 2 common audio input features are the Mel Filterbank coefficients (used commonly in end-to-end systems) and the MFCCs (used commonly in traditional systems).
    
 5. Common output units include phonemes (used typically in traditional systems), and words, characters and subword units (used more commonly in end-to-end systems)
    
-6. Notable end-to-end ASR model architectures include CTC, RNN-T and attention-based models.
+6. Notable end-to-end ASR model architectures include the CTC, RNN-T and attention-based models.
 
 ---
 
