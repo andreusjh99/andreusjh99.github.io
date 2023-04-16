@@ -7,7 +7,8 @@ title: About Me
 
 # About ME
 
-<!-- comment -->
+![](/assets/images/posts/0_aboutme/identity.jpg)
+
 My full name is Chia Jing Heng. First name: **Jing Heng**, last name: Chia.
 
 Most from the West will get my first name wrong at first glance. Can't blame them. Malaysian Chinese like me have our names written with the last name-first name convention, rather than the more popular first name-last name convention. You can call me Andreus if you like. It is sort of like a nickname, or more precisely a pseudoname that I use online.
