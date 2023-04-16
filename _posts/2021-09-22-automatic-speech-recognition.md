@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Automatic Speech Recognition (ASR)"
+title:  Automatic Speech Recognition (ASR)
 date:   2021-09-22
 read: 8
 description: A brief introduction to automatic speech recognition.

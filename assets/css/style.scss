@@ -9,6 +9,11 @@
     --blur-opacity: 70%
 }
 
+header h1 {
+    font-size: 3em;
+    letter-spacing: 0;
+}
+
 // sidebar
 aside#sidebar {
 
@@ -49,8 +54,8 @@ div.posts {
 div.post-header {
     font-size: var(--small-font);
 
-    #main-content p.meta {
-        opacity: 0.7;
+    p.meta {
+        opacity: var(--blur-opacity);
     }
     
     // post header alignments
@@ -90,6 +95,11 @@ div.post-header {
             filter: sepia(1) hue-rotate(190deg) saturate(400%);
             -webkit-filter: sepia(1) hue-rotate(190deg) saturate(400%);
         }
+    }
+
+    figure.film{
+        margin: 0;
+        margin-bottom: 1em;
     }
 
     figcaption{

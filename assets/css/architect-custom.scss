@@ -64,7 +64,8 @@ pre code {
 #main-content h4,
 #main-content h5,
 #main-content h6
-{
+{   
+    letter-spacing: 1px;
     color: var(--header-def-colour);
     &:before {
         color: var(--header-def-colour);
