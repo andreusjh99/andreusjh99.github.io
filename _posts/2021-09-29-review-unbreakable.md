@@ -3,7 +3,7 @@ layout: post
 title: Unbreakable (2000) - Review
 date:   2021-09-22
 read: 8
-description: Directed by&#58; M. Night Shyamalan; Written by&#58; M. Night Shyamalan 
+description:
 director: M.Night Shyamalan
 screenplay: M.Night Shyamalan
 rating: 9.5/10
@@ -55,7 +55,7 @@ All in all, Unbreakable is a very solid superhero drama film. Without any reserv
 
 - Extra: 0.75/1.0
   
-  Brilliant deconstruction of the superhero genre; Thoughtful commentary on the contemporary state of comic books and the media; hauntingly beautiful music and visuals; 
+  Brilliant deconstruction of the superhero genre; Thoughtful commentary on the contemporary state of comic books and the media; hauntingly beautiful music and visuals 
 
 ---
 

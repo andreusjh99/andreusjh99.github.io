@@ -2,28 +2,48 @@
 layout: home
 ---
 
-<h1 class="post-title">{{ page.title }}</h1>
+<div class="post-title">
+  <h1>{{ page.title }}</h1>
+
+  {% if page.rating %}
+    <h2><i class="icon fa fa-star"></i>{{ page.rating }}</h2>
+  {% endif %}
+</div>
 
 <div class="post-header">
-  <ul>
-    {% if page.date %}
-    <li>
-      <i class="icon helpericon fa fa-pencil-alt"><span class="label">pencil</span></i
-      >{{ page.date | date_to_string }}
-    </li>
-    {% endif %} 
-    {% if page.read %}
-    <li>
-      <i class="icon helpericon fa fa-clock"><span class="label">clock</span></i
-      >{{ page.read }} min read
-    </li>
-    {% endif %}
-  </ul>
+  <div class="helpericon">
+    <ul>
+      {% if page.date %}
+      <li>
+        <i class="icon fa fa-pencil-alt"><span class="label">pencil</span></i
+        >{{ page.date | date_to_string }}
+      </li>
+      {% endif %} 
+      {% if page.read %}
+      <li>
+        <i class="icon fa fa-clock"><span class="label">clock</span></i
+        >{{ page.read }} min read
+      </li>
+      {% endif %}
+    </ul>
+  </div>
   
-  <p class="meta">
-    <i class="icon helpericon fa fa-file-alt"><span class="label">description</span></i
+  <div class="desc">
+    {% if page.description %}
+    <i class="icon fa fa-file-alt"><span class="label">description</span></i
     >{{ page.description | default: "" }}
-  </p>
+    {% endif %}
+  </div>
+
+  <div class="film">
+    {% if page.director %}
+      <i class="icon fa fa-clapperboard"><span class="label">director</span></i>Directed by: {{ page.director | default: "-" }}
+    {% endif %}
+    <br>
+    {% if page.screenplay %}
+      <i class="icon fa fa-book"><span class="label">director</span></i>Screenplay by: {{ page.screenplay | default: "-" }}
+    {% endif %}
+  </div>
 </div>
 
 {{ content }}

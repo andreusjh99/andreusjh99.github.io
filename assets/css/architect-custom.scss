@@ -77,10 +77,10 @@ pre code {
     font-size: 1.8em;
     font-weight: bold;
     
-    &:not(.post-title) {
+    // &:not(.post-title) {
         margin-bottom: 0.5em;
         border-bottom: 2px dashed #9ddcff;
-    }
+    // }
 }
 
 #main-content h2 {
