@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Unbreakable (2000) - Review
-date:   2021-09-29
-read: 8
+read: 5
 description:
-director: M.Night Shyamalan
-screenplay: M.Night Shyamalan
+director: M. Night Shyamalan
+screenplay: M. Night Shyamalan
 rating: 9.5/10
 categories: film review
 ---
@@ -21,13 +20,13 @@ categories: film review
 
 **Unbreakable** is a superhero origin film told in a thriller, drama format. It is a story about finding your place in the world. 
 
-Stadium security guard David Dunn (Bruce Willis) was on Eastrail 177 when the train derailed. Surprising to everyone including himself, David was the sole survivor and was completely unscathed from the horrific accident. Meanwhile, in the same town, Elijah Price (Samuel L. Jackson) suffered from a rare medical condition that sees his bones more brittle than a regular human. After crossing paths with David Dunn, he was convinced that he was the polar opposite of David Dunn. With the advent of this new information, David and Elijah strived to find their places in all this. 
+Stadium security guard David Dunn (Bruce Willis) is on Eastrail 177 when the train derails. Surprising to everyone including himself, David is the sole survivor and is completely unscathed from the horrific accident. Meanwhile, in the same town, Elijah Price (Samuel L. Jackson) suffers from a rare medical condition that sees his bones more brittle than a regular human since infancy. After crossing paths with David Dunn, he is convinced that he is the polar opposite of David Dunn. With the advent of this new information, David and Elijah strive to find their places in all this. 
 
-Unbreakable is an excellent film, to say the least. It features two intertwining parallel arcs, one for David and one for Elijah. David’s arc follows a traditional superhero arc where he realises his “superpowers”, rejects them, and finally coming into terms with them, while Elijah’s arc follows closely in parallel to David. Eventually, both arcs unite. The story is one that everyone is familiar with, especially with the recent influx of comic book movies in theatres at the time of writing this review. However, the tale was told in a masterful and refreshing way by the young M. Night Shyamalan with such maturity and finesse. With minimal action sequences and great restrain from using constantly recycled story beats, Unbreakable manages to captivate with its deeper character bonding moments and conversations, which is rarely seen in films of the same genre. Grounded in reality, the film has a dark and subdued tone, which accompanies the realisation of both character arcs well. 
+Unbreakable is an excellent film, to say the least. It features two intertwining parallel arcs, one for David and one for Elijah. David’s arc follows a traditional superhero arc where he realises his “superpowers”, rejects them, and finally coming into terms with them, while Elijah’s arc follows closely in parallel to David. Eventually, both arcs unite. The story is one that everyone is familiar with, especially with the recent influx of comic book movies in theatres at the time of writing this review. However, the tale is told in a masterful and refreshing way by the then young M. Night Shyamalan with such maturity and finesse. With minimal action sequences and great restrain from using constantly recycled story beats, Unbreakable manages to captivate with its deeper character bonding moments and conversations, which is rarely seen in films of the same genre. Grounded in reality, the film has a dark and subdued tone, which accompanies the realisation of both character arcs well. 
 
 This is, however, not to say that the plot is without its flaws. There are questionable moments in some parts of the plot but they were never distracting. One could just shrug them off and interpret those moments as Shyamalan’s typical flair for the dramatics. 
 
-The characters of David and Elijah were really well-written, and they could only get better with Bruce Willis’ and Samuel L. Jackson’s performances. Both embraced their roles but Samuel L. Jackson, in particular, shined throughout the film with a relatively short screen time. The young Spencer Treat Clark was especially notable as Joseph Dunn, the young son of David Dunn, with his stellar performance in several crucial scenes with Willis. 
+The characters of David and Elijah are really well-written, and they can only get better with Bruce Willis’ and Samuel L. Jackson’s performances. Both embrace their roles but Samuel L. Jackson, in particular, shines throughout the film with a relatively short screen time. The young Spencer Treat Clark is especially notable as Joseph Dunn, the young son of David Dunn, with his stellar performance in several crucial scenes with Willis. 
 
 <div class="film-trailer">
 <figure>
@@ -36,9 +35,9 @@ The characters of David and Elijah were really well-written, and they could only
 </figure>
 </div>
 
-Both score and cinematography were absolutely perfect for this film. James Newton Howard is undeniably a master. With a minimalistic score, he padded the film with rich emotions and energy that only a handful could manage. Eduardo Serra was marvellous as well. With huge attention to detail and trust for the audience, he and Shyamalan crafted a gorgeous and intelligent visual canvas for the film. Colours were used meticulously in scenes, camera shots were chosen and used wisely, and so were the long takes for engaging and deeply emotional sequences. One should only sit back and appreciate how much work was put into telling the story visually. 
+Both score and cinematography are absolutely perfect for this film. James Newton Howard is undeniably a master. With a minimalistic score, he pads the film with rich emotions and energy that only a handful could manage. Eduardo Serra is marvellous as well. With huge attention to detail and trust for the audience, he and Shyamalan craft a gorgeous and intelligent visual canvas for the film. Colours are used meticulously in scenes, camera shots are chosen and used wisely, and so are the long takes for engaging and deeply emotional sequences. One should only sit back and appreciate how much work has been put into telling the story visually. 
 
-All in all, Unbreakable is a very solid superhero drama film. Without any reservation, it is one of the best of its genre. This is a must-watch and multiple viewings are also highly recommended, for the spell-binding visuals, captivating score, and moving story.
+All in all, Unbreakable is a very solid superhero drama film. Without any reservation, it is one of the best of its genre and is in my opinion Shyamalan's magnum opus. This is a must-watch and multiple viewings are also highly recommended, for the spell-binding visuals, captivating score, and moving story.
 
 <hr style="border-style: dashed">
 

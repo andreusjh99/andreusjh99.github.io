@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  What is Machine Learning?
-date:   2021-09-10
 read: 8
 description: What machine learning actually is, and the main types of machine learning algorithms.
 categories: machine learning
