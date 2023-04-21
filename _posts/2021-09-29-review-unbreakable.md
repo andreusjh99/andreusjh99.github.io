@@ -29,10 +29,12 @@ This is, however, not to say that the plot is without its flaws. There are quest
 
 The characters of David and Elijah were really well-written, and they could only get better with Bruce Willis’ and Samuel L. Jackson’s performances. Both embraced their roles but Samuel L. Jackson, in particular, shined throughout the film with a relatively short screen time. The young Spencer Treat Clark was especially notable as Joseph Dunn, the young son of David Dunn, with his stellar performance in several crucial scenes with Willis. 
 
+<div class="film-trailer">
 <figure>
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/fNeCB2ALNoA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/fNeCB2ALNoA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <figcaption><i class="fa-brands fa-youtube"></i> Trailer for Unbreakable (2000)</figcaption>
 </figure>
+</div>
 
 Both score and cinematography were absolutely perfect for this film. James Newton Howard is undeniably a master. With a minimalistic score, he padded the film with rich emotions and energy that only a handful could manage. Eduardo Serra was marvellous as well. With huge attention to detail and trust for the audience, he and Shyamalan crafted a gorgeous and intelligent visual canvas for the film. Colours were used meticulously in scenes, camera shots were chosen and used wisely, and so were the long takes for engaging and deeply emotional sequences. One should only sit back and appreciate how much work was put into telling the story visually. 
 

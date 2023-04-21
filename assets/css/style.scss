@@ -130,6 +130,25 @@ div.posts {
     opacity: var(--blur-opacity);
   }
 
+  .film-trailer {
+    width: 100%;
+    padding-top: 56.25%; // 16:9 aspect ratio
+    position: relative;
+
+    figure {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      iframe {
+        width: 100%;
+        height: 85%;
+      }
+    }
+  }
+
   blockquote {
     font-size: 18px;
     border-left: 7px solid #888888;
@@ -197,7 +216,6 @@ div.posts {
     overflow-x: auto;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
-  
 }
 
 // -----------------
