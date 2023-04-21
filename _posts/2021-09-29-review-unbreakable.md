@@ -39,23 +39,43 @@ Both score and cinematography were absolutely perfect for this film. James Newto
 All in all, Unbreakable is a very solid superhero drama film. Without any reservation, it is one of the best of its genre. This is a must-watch and multiple viewings are also highly recommended, for the spell-binding visuals, captivating score, and moving story.
 
 <hr style="border-style: dashed">
-- Story/Screenplay: 1.75/2.0
 
-- Performance: 2.0/2.0
-
-- Editing: 1.0/1.0
-
-- Direction: 1.0/1.0
-
-- Sound design/music: 1.0/1.0
-
-- Cinematography/visuals: 1.0/1.0
-
-- Set/Production: 1.0/1.0
-
-- Extra: 0.75/1.0
-  
-  Brilliant deconstruction of the superhero genre; Thoughtful commentary on the contemporary state of comic books and the media; hauntingly beautiful music and visuals 
+<table class="table table-sm table-striped table-hover">
+  <tbody>
+    <tr>
+      <td>Story/Screenplay</td>
+      <td>1.75 / 2.0</td>
+    </tr>
+    <tr>
+      <td>Performance</td>
+      <td>2.0 / 2.0</td>
+    </tr>
+    <tr>
+      <td>Editing</td>
+      <td>1.0 / 1.0</td>
+    </tr>
+    <tr>
+      <td>Direction</td>
+      <td>1.0 / 1.0</td>
+    </tr>
+    <tr>
+      <td>Sound design/Music</td>
+      <td>1.0 / 1.0</td>
+    </tr>
+    <tr>
+      <td>Cinematography/Visuals</td>
+      <td>1.0 / 1.0</td>
+    </tr>
+    <tr>
+      <td>Set/Production</td>
+      <td>1.0 / 1.0</td>
+    </tr>
+    <tr>
+      <td>Extra</td>
+      <td>0.75 / 1.0 <br /> - Brilliant deconstruction of the superhero genre; <br /> - Thoughtful commentary on the contemporary state of comic books and the media; <br /> - hauntingly beautiful music and visuals</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
