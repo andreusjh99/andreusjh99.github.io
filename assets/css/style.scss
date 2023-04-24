@@ -130,7 +130,7 @@ div.posts {
     opacity: var(--blur-opacity);
   }
 
-  .film-trailer {
+  div.film-trailer {
     width: 100%;
     padding-top: 56.25%; // 16:9 aspect ratio
     position: relative;
@@ -147,6 +147,12 @@ div.posts {
         height: 85%;
       }
     }
+  }
+
+  div.math {
+    width: 100%;
+    overflow: auto;
+    font-size: 0.9em;
   }
 
   blockquote {
@@ -208,13 +214,6 @@ div.posts {
 
   .table-hover tbody tr:hover {
     background-color: rgba(0, 0, 0, 0.125);
-  }
-
-  .table-responsive {
-    display: block;
-    // width: 100%;
-    overflow-x: auto;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
 

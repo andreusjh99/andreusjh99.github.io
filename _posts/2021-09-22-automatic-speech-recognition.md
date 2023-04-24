@@ -48,7 +48,7 @@ The key advantage of such approach is the ability to *jointly train the acoustic
 
 # Inputs and outputs
 
-## Inputs
+## Inputs {#Inputs}
 
 The input of an ASR system is audio recordings, as you may expect for a speech recognition system. To allow the models to perform better, however, **features are extracted** from the audio sequences in a preprocessing step. These extracted acoustic features are then passed into the models instead of the raw audio recording.
 
