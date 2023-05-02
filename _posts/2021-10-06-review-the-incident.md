@@ -42,6 +42,10 @@ All in all, El Incidente is a brilliantly deep sci-fi thriller which prompts its
 <hr style="border-style: dashed">
 
 <table class="table table-sm table-striped table-hover">
+  <colgroup>
+    <col style="width: 30%;">
+    <col style="width: 70%;">
+  </colgroup>
   <tbody>
     <tr>
       <td>Story/Screenplay</td>

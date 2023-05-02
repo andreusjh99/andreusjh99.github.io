@@ -5,7 +5,7 @@ read: 5
 description:
 director: Ben Wheatley
 screenplay: Amy Jump
-rating: 9.5/10
+rating: 6.75/10
 categories: film review
 ---
 
@@ -28,8 +28,8 @@ Themes like oppression, the clashing between classes, rebellion and, especially 
 
 <div class="film-trailer">
 <figure>
-  <iframe src="https://www.youtube.com/embed/fNeCB2ALNoA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <figcaption><i class="fa-brands fa-youtube"></i> Trailer for Unbreakable (2000)</figcaption>
+  <iframe src="https://www.youtube.com/embed/LKPghZ5cc_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <figcaption><i class="fa-brands fa-youtube"></i> Trailer for High-Rise (2015)</figcaption>
 </figure>
 </div>
 
@@ -40,10 +40,15 @@ All in all, the film is passable. With better thought-out execution, the film co
 <hr style="border-style: dashed">
 
 <table class="table table-sm table-striped table-hover">
+  <colgroup>
+    <col style="width: 30%;">
+    <col style="width: 70%;">
+  </colgroup>
+
   <tbody>
     <tr>
       <td>Story/Screenplay</td>
-      <td>1.75 / 2.0</td>
+      <td>1.0 / 2.0</td>
     </tr>
     <tr>
       <td>Performance</td>
@@ -51,11 +56,11 @@ All in all, the film is passable. With better thought-out execution, the film co
     </tr>
     <tr>
       <td>Editing</td>
-      <td>1.0 / 1.0</td>
+      <td>0.5 / 1.0</td>
     </tr>
     <tr>
       <td>Direction</td>
-      <td>1.0 / 1.0</td>
+      <td>0.25 / 1.0</td>
     </tr>
     <tr>
       <td>Sound design/Music</td>
@@ -71,7 +76,7 @@ All in all, the film is passable. With better thought-out execution, the film co
     </tr>
     <tr>
       <td>Extra</td>
-      <td>0.75 / 1.0 <br /> - Brilliant deconstruction of the superhero genre; <br /> - Thoughtful commentary on the contemporary state of comic books and the media; <br /> - hauntingly beautiful music and visuals</td>
+      <td>0.0 / 1.0</td>
     </tr>
   </tbody>
 </table>
