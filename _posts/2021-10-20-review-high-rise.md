@@ -14,17 +14,17 @@ categories: film review
 ## The vertical Snowpiercer
 
 <figure class="film">
-  <img src="/assets/images/posts/7_R_HighRise/post.jpeg" alt="Unbreakable movie still">
+  <img src="/assets/images/posts/7_R_HighRise/post.jpeg" alt="High-Rise movie still">
   <figcaption><i class="fa-solid fa-film"></i> Ben Wheatley's High-Rise </figcaption>
 </figure>
 
-**High-Rise** is a film about social hierarchy and class differences, and it definitely does not shy away from criticising almost everyone, from the arrogant and incompetent leader, the blind and oppressive upper class, the silent and self-protective middle class, to the delusional. 
+**High-Rise** is a film about social hierarchy and class differences, and it definitely does not shy away from criticising almost everyone from the arrogant and incompetent leader, the blind and oppressive upper class, the silent and self-protective middle class, to the delusional. 
 
 It is 1975. Dr Robert Laing (Tom Hiddleston) has just moved in to a 40-storey tower on the outskirts of London. In this high-rise, the wealthy lives on the top floors, while the poorer lives below. Residents are able to fulfil their daily needs, survival and entertainment, by frequenting the many amenities in the tower which include a supermarket, pool, gym, spa and primary school. Glamorous as it may be to be a part of the modern lifestyle, the hidden cracks soon become impossible to bear in this vertical miniature of a society.
 
-Started off steadily, the film, however, slowly lacks focus and descends into chaos, ironically just like the characters in the film. Tom Hiddleston, as amazing as always, is the one thread that glues the film together from falling apart from the second act onwards, but even that does not stop the film from tumbling down into a mess. There is a difference between portraying chaos and being chaotic, and the film, unfortunately, chooses the latter. Fortunately, the film manages to find its rhythm back near the end of the final act and resolves to a rather unearned conclusion.
+Started off steadily, the film, however, slowly lacks focus and descends into chaos, ironically just like the characters in the film. Tom Hiddleston, as amazing as always, is the one thread that glues the film together from falling apart from the second act onwards, but even that does not stop the film from tumbling down into a mess. There is a difference between portraying chaos and being chaotic, and the film, unfortunately, chooses the latter. Despite this, the film manages to find its rhythm back near the end of the final act and resolves to a rather unearned conclusion.
 
-Themes like oppression, the clashing between classes, rebellion and, especially the inaction of the middle class are infused all over the film, which is commendable. However, the film is almost indecipherable halfway onwards that it would take the keenest eye to spot the metaphors and ideas behind the shambles. It is undoubtedly a film which requires second viewing, but I seriously doubt if most will be willing to sit through it a second time.
+Themes like oppression, the clashing between classes, rebellion, and especially the inaction of the middle class are infused all over the film, which is commendable. However, the film is almost indecipherable halfway onwards that it would take the keenest eye to spot the metaphors and ideas behind the shambles. It is undoubtedly a film that requires second viewing, but I genuinely doubt if most will be willing to sit through it a second time.
 
 <div class="film-trailer">
 <figure>
@@ -35,7 +35,7 @@ Themes like oppression, the clashing between classes, rebellion and, especially 
 
 Despite the lack of focus, one has to appreciate the amazing work on the soundtrack and the colour palette of the film. Clint Mansell did a wonderful job with the score and the rendition of ABBA's S.O.S. definitely is a cherry on the top. As for the visuals, the colours are comfortable and welcoming at times, yet effectively violent and dark when needed.
 
-All in all, the film is passable. With better thought-out execution, the film could definitely do better as the themes and the performances were sufficiently engaging. After sitting through the beatiful-looking and sounding High-Rise, I can only sigh, "What a waste!"
+All in all, the film is passable. With better thought-out execution, the film could definitely do better as the themes and the performances were sufficiently engaging. After sitting through the gorgeous-looking and beautiful-sounding High-Rise, I can only sigh, "What a waste!"
 
 <hr style="border-style: dashed">
 
