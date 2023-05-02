@@ -32,6 +32,15 @@ aside#sidebar {
 
 // post lists in home page
 div.posts {
+
+  ul {
+    padding-left: 40px;
+    
+    div.post-item {
+      padding-bottom: 0.5em;
+    }
+  }
+
   a.post-title-link {
     font-weight: bold;
   }

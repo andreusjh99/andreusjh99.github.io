@@ -13,14 +13,17 @@ layout: home
   <div class="posts">
     <ul>
       {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date_to_string }}</span> &raquo;
-        <a class="post-title-link" href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-
-      {% if post.description %}
-      <div class="post-description">{{ post.description }}</div>
-      {% endif %} {% endfor %}
+      <div class="post-item">
+        <li>
+          <span>{{ post.date | date_to_string }}</span> &raquo;
+          <a class="post-title-link" href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+  
+        {% if post.description %}
+        <div class="post-description">{{ post.description }}</div>
+        {% endif %} 
+      </div>
+      {% endfor %}
     </ul>
   </div>
 </div>
