@@ -1,7 +1,7 @@
 ---
 layout: post
 title: High-Rise (2015) - Review
-read: 5
+read: 4
 description:
 director: Ben Wheatley
 screenplay: Amy Jump

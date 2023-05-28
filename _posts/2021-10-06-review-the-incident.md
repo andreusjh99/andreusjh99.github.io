@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Incident (2014) - Review
-read: 5
+read: 4
 description:
 director: Isaac Ezban
 screenplay: Isaac Ezban
@@ -77,7 +77,7 @@ All in all, El Incidente is a brilliantly deep sci-fi thriller which prompts its
     </tr>
     <tr>
       <td>Extra</td>
-      <td>0.5 / 1.0 <br /> - Thoughtful exploration of the various stages of life</td>
+      <td>0.5 / 1.0 <br/>- Thoughtful exploration of the various stages of life</td>
     </tr>
   </tbody>
 </table>
