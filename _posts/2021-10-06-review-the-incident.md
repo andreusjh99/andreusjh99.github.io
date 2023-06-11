@@ -76,7 +76,7 @@ All in all, El Incidente is a brilliantly deep sci-fi thriller that prompts its 
       <td>1.0 / 1.0</td>
     </tr>
     <tr>
-      <td>Extra</td>
+      <td>Bonus</td>
       <td>0.5 / 1.0 <br/>- Thoughtful exploration of the various stages of life</td>
     </tr>
   </tbody>

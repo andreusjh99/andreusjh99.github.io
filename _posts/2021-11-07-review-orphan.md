@@ -75,7 +75,7 @@ Needless to say, Orphan is one of the most chilling films I have watched. It has
       <td>1.0 / 1.0</td>
     </tr>
     <tr>
-      <td>Extra</td>
+      <td>Bonus</td>
       <td>0.5 / 1.0<br/>- Isabelle Fuhrman's performance</td>
     </tr>
   </tbody>

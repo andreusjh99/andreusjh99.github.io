@@ -76,7 +76,7 @@ All in all, Unbreakable is a solid superhero drama film. Without any reservation
       <td>1.0 / 1.0</td>
     </tr>
     <tr>
-      <td>Extra</td>
+      <td>Bonus</td>
       <td>0.75 / 1.0 <br /> - Brilliant deconstruction of the superhero genre; <br /> - Thoughtful commentary on the contemporary state of comic books and the media; <br /> - hauntingly beautiful music and visuals</td>
     </tr>
   </tbody>

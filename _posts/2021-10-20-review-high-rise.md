@@ -75,7 +75,7 @@ All in all, the film is passable. With better thought-out execution, the film co
       <td>1.0 / 1.0</td>
     </tr>
     <tr>
-      <td>Extra</td>
+      <td>Bonus</td>
       <td>0.0 / 1.0</td>
     </tr>
   </tbody>
