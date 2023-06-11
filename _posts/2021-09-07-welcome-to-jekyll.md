@@ -2,7 +2,7 @@
 layout: post
 title:  Welcome to Jekyll!
 read: 2
-description: Brief instructions for adding a new blog post to a static site built with Jekyll.
+description: IN PROGRESS - Brief instructions for adding a new blog post to a static site built with Jekyll.
 categories: jekyll update
 ---
 

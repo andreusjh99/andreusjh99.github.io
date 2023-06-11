@@ -2,7 +2,7 @@
 layout: post
 title: Unbreakable (2000) - Review
 read: 4
-description:
+description: A touching story of self discovery
 director: M. Night Shyamalan
 screenplay: M. Night Shyamalan
 rating: 9.5/10
@@ -14,7 +14,7 @@ categories: film review
 ## A touching story of self discovery
 
 <figure class="film">
-  <img src="/assets/images/posts/4_R_Unbreakable/post.jpg" alt="Unbreakable movie still">
+  <img src="/assets/images/posts/films/unbreakable.jpg" alt="Unbreakable movie still">
   <figcaption><i class="fa-solid fa-film"></i> M. Night Shyamalan's Unbreakable </figcaption>
 </figure>
 

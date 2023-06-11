@@ -2,7 +2,7 @@
 layout: post
 title: The Incident (2014) - Review
 read: 4
-description:
+description: Who are we but Sisyphi in different costumes?
 director: Isaac Ezban
 screenplay: Isaac Ezban
 rating: 7.5/10
@@ -14,7 +14,7 @@ categories: film review
 ## Who are we but Sisyphi in different costumes?
 
 <figure class="film">
-  <img src="/assets/images/posts/5_R_TheIncident/post.jpg" alt="The Incident movie still">
+  <img src="/assets/images/posts/films/the-incident.jpg" alt="The Incident movie still">
   <figcaption><i class="fa-solid fa-film"></i> Isaac Ezban's El Incidente </figcaption>
 </figure>
 

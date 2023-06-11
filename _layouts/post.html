@@ -30,8 +30,10 @@ layout: home
   
   <div class="desc">
     {% if page.description %}
+    {% unless page.categories contains "film" %}
     <i class="icon fa fa-file-alt"><span class="label">description</span></i
-    >{{ page.description | default: "" }}
+    >{{ page.categories | default: "" }}
+    {% endunless %}
     {% endif %}
   </div>
 

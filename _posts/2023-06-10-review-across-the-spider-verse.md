@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spider-Man&#58; Across the Spider-Verse (2023) - Review
-read: 4
+read: 6
 description: A far more daring, ambitious, and vibrant masterpiece in storytelling and animation
 director: Joaquim Dos Santos, Kemp Powers, Justin K. Thompson
 screenplay: Phil Lord, Christopher Miller, Dave Callaham
@@ -49,8 +49,6 @@ Take the Mumbattan sequence, for instance. Breakneck pacing in the animation and
 Across the Spider-Verse features a star-studded ensemble cast, with Daniel Kaluuya, Issa Rae, and Jason Schwartzman, to name a few, joining the already brilliant original cast. Oscar Isaac also returns as Miguel O’Hara (Spider-Man 2099) with a more prominent involvement in the film. Performances are through the roof. Whether it is Shameik Moore back as the lovable Miles Morales, Hailee Steinfeld as the conflicted Gwen Stacy, Oscar Isaac as Miguel who always tries to do the right thing, or Jason Schwartzman as the intimidating new and upcoming villain Spot, it is always a blast to watch and hear. The humour works really well, just like the first film. Most gags landed successfully, often causing huge reactions from the audience in the screening I attended. A re-enactment of a particular legendary meme moment is also unexpected yet inevitable.
 
 Daniel Pemberton returns as the composer of the original score for the sequel, bringing with him a rip-roaring masterpiece of a soundtrack. As diverse as the animation styles are, the soundtrack features many styles and genres, keeping up with the film in its exploration of the different worlds and characters. Action sequences are loaded with such vivacity and energy thanks to his brilliant music. Special shoutouts to a few tracks here: <a href="https://open.spotify.com/track/0HuIPfHavk3tsXOtpuyT0O?si=980b425262834cf9" target="_blank">Spider-Woman</a>, <a href="https://open.spotify.com/track/6JzXhKJhK1UKTCwZTvchP2?si=fde7a70e23ec46dd" target="_blank">Spider-Man India</a> and <a href="https://open.spotify.com/track/6iD9kcWB4h25t7OX8Xk6wT?si=e98bd987234b4c4c" target="_blank">Spider-Man 2099</a>. Along with the instrumental score is a compilation of music by Metro Boomin, which sets out to rival the popular and effective 2018 soundtrack compilation featuring the ultimate earworm that is <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P?si=c4e8ba3084ca4c76" target="_blank">“Sunflower” (by Post Malone and Swae Lee)</a>. Especially notable tunes in this year’s compilation include <a href="https://open.spotify.com/track/0grfvXep0gn5nXdQoHue1a?si=126f2b2e9539471b" target="_blank">“Annihilate” (by Metro Boomin, Swae Lee, Lil Wayne, and Offset)</a>, and <a href="https://open.spotify.com/track/37CoOXIsgF3NzbK1zHZetk?si=ee95b7acda1e4a14" target="_blank">“Mona Lisa” (by Dominic Fike)</a>.
-
-
 
 <figure class="film">
   <img src="/assets/images/posts/films/spider-man-across-the-spider-verse-3.jpg" alt="Spider-Man: Across the Spider-Verse movie still">
