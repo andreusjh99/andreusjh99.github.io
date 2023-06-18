@@ -41,21 +41,23 @@ header a.button {
     display:block;
 }
 
-code, pre {
-    color: rgb(200, 200, 200);
-}
-
 code {
-    background-color: #000000;
+    font-size: 0.85em;
+    color: #cacaca;
+    background-color: #111111;
     border: none;
+    padding: 3px;
 }
 
 pre {
+    font-size: 0.85em;
     background: none;
     border: solid 1px #666666;
-}
-pre code {
-    background-color: #252520;
+
+    code {
+        font-size: 1em; // i.e. same as pre
+        background: none;
+    }
 }
 
 #main-content h1,
@@ -88,7 +90,7 @@ pre code {
 }
 
 #main-content h3 {
-    font-size: 1.4em;  
+    font-size: 1.4em;
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
