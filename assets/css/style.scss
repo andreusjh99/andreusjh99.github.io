@@ -1,9 +1,15 @@
 ---
 ---
 
-@import url(architect-custom.css);
+@import "jekyll-theme-architect";
+
+// This scss file is to customise the default architect 0.2.0 theme css
 
 :root {
+  --header-def-colour: #9ddcff;
+  --sidebar-bcolour: #469fff;
+  --dark-bg: #252525;
+
   --header-light-mode-colour: #004288;
   --small-font: 0.8em;
   --blur-opacity: 70%;
@@ -29,14 +35,46 @@
   }
 }
 
+// so that it scrolls smoothly to the top
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.75;
+  color: #fafafa;
+  background: var(--dark-bg);
+}
+
+a {
+  color: #469fff;
+
+  &:hover {
+    color: #275d97;
+  }
+}
+
 // header
-header h1 {
-  font-size: 3em;
-  letter-spacing: 0;
+header {
+  h1 {
+    width: auto;
+    font-size: 3em;
+    letter-spacing: 0;
+  }
+
+  a.button {
+    display: block;
+  }
 }
 
 // sidebar
 aside#sidebar {
+  background: none;
+  border-left: solid 1px var(--sidebar-bcolour);
+  position: sticky;
+  top: 30px;
+
   div.avatar img {
     width: 100px;
     border-radius: 50%;
@@ -51,12 +89,34 @@ aside#sidebar {
   }
 }
 
+// header a.button {
+//   display: block;
+// }
+
+code {
+  font-size: 0.85em;
+  color: #cacaca;
+  background-color: #111111;
+  border: none;
+  padding: 3px;
+}
+
+pre {
+  font-size: 0.85em;
+  background: none;
+  border: solid 1px #666666;
+
+  code {
+    font-size: 1em; // i.e. same as pre
+    background: none;
+  }
+}
+
 // post lists in home page
 div.posts {
-
   ul {
     padding-left: 40px;
-    
+
     div.post-item {
       padding-bottom: 0.5em;
     }
@@ -72,10 +132,38 @@ div.posts {
   }
 }
 
-// --------------
-// Posts page
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6 {
+  letter-spacing: 1px;
+  color: var(--header-def-colour);
+  &:before {
+    color: var(--header-def-colour);
+    content: none;
+  }
+}
 
-// remove stroke for post titles
+#main-content h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+
+  // &:not(.post-title) {
+  margin-bottom: 0.5em;
+  border-bottom: 2px dashed #9ddcff;
+  // }
+}
+
+#main-content h2 {
+  font-size: 1.6em;
+}
+
+#main-content h3 {
+  font-size: 1.4em;
+}
+
 #main-content {
   .icon {
     padding-right: 10px;
@@ -357,9 +445,23 @@ ul.icons {
   }
 }
 
-// so that it scrolls smoothly to the top
-html {
-  scroll-behavior: smooth;
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  header h1,
+  header h2 {
+    width: auto;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  aside#sidebar {
+    border-top: solid 1px var(--sidebar-bcolour);
+    border-left: none;
+  }
 }
 
 // -----------------
