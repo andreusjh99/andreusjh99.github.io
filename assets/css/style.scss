@@ -1,13 +1,16 @@
 ---
 ---
 
-@import "jekyll-theme-architect";
+@import url("jekyll-theme-architect.css");
 
 // This scss file is to customise the default architect 0.2.0 theme css
 
 :root {
   --header-def-colour: #9ddcff;
-  --sidebar-bcolour: #469fff;
+  --theme-blue1: #469fff;
+  --theme-blue2: #275d97;
+  // --sidebar-bcolour: #469fff;
+  // --link-colour: #469fff;
   --dark-bg: #252525;
 
   --header-light-mode-colour: #004288;
@@ -48,10 +51,10 @@ body {
 }
 
 a {
-  color: #469fff;
+  color: var(--theme-blue1);
 
   &:hover {
-    color: #275d97;
+    color: var(--theme-blue2);
   }
 }
 
@@ -71,7 +74,7 @@ header {
 // sidebar
 aside#sidebar {
   background: none;
-  border-left: solid 1px var(--sidebar-bcolour);
+  border-left: solid 1px var(--theme-blue1);
   position: sticky;
   top: 30px;
 
@@ -79,7 +82,7 @@ aside#sidebar {
     width: 100px;
     border-radius: 50%;
     padding: 5px;
-    border: 1px solid #469fff;
+    border: 1px solid var(--theme-blue1);
 
     transition: border-radius 0.5s ease-in-out;
 
@@ -152,7 +155,7 @@ div.posts {
 
   // &:not(.post-title) {
   margin-bottom: 0.5em;
-  border-bottom: 2px dashed #9ddcff;
+  border-bottom: 2px dashed var(--header-def-colour);
   // }
 }
 
@@ -213,7 +216,7 @@ div.posts {
     }
 
     div.helpericon {
-      color: #469fff;
+      color: var(--theme-blue1);
     }
 
     div.desc,
@@ -404,7 +407,7 @@ ul.icons {
 
   button {
     border: none;
-    background-color: #469fff;
+    background-color: var(--theme-blue1);
     color: white;
     cursor: pointer;
     // padding: 8px 18px 8px 18px;
@@ -414,7 +417,6 @@ ul.icons {
     font-size: 1.25rem;
 
     &:hover {
-      background-color: #2c82dd;
       filter: brightness(75%);
     }
 
@@ -438,14 +440,12 @@ ul.icons {
   display: block;
   background-color: var(--dark-bg);
   border: solid 2px;
-  border-color: #469fff;
+  border-color: var(--theme-blue1);
 
   &:before {
     font-size: 2rem;
   }
 }
-
-
 
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -459,10 +459,11 @@ ul.icons {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
   aside#sidebar {
-    border-top: solid 1px var(--sidebar-bcolour);
+    border-top: solid 1px var(--theme-blue1);
     border-left: none;
   }
 }
+
 
 // -----------------
 // light mode
@@ -487,10 +488,10 @@ body.light-mode {
 
   // flip over the colours in dark mode
   a {
-    color: #275d97;
+    color: var(--theme-blue2);
 
     &:hover {
-      color: #469fff;
+      color: var(--theme-blue1);
     }
   }
 
@@ -520,12 +521,12 @@ body.light-mode {
 
   div.post-header {
     li {
-      color: #275d97;
+      color: var(--theme-blue2);
     }
   }
 
   aside#sidebar div.avatar img {
-    border-color: #275d97;
+    border-color: var(--theme-blue2);
   }
 
   code {
@@ -535,7 +536,8 @@ body.light-mode {
 
   pre {
     code {
-      color: #2879d0;
+      // color: #2879d0;
+      color: var(--theme-blue1);
       background: none;
     }
   }
