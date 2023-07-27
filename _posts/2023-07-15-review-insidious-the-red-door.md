@@ -2,7 +2,7 @@
 layout: post
 title: Insidious&#58; The Red Door (2023) - Review
 read: 6
-description: A solid entry to the franchiseA solid entry to the franchise
+description: A solid entry into the franchise
 director: Patrick Wilson
 screenplay: Scott Teems
 rating: 6.75/10
@@ -11,7 +11,7 @@ categories: film review
 
 ---
 
-## A solid entry to the franchise
+## A solid entry into the franchise
 
 <figure class="film">
   <img src="/assets/images/posts/films/Insidious_red_door.jpg" alt="Insidious: The Red Door movie still">
@@ -22,7 +22,7 @@ categories: film review
 
 Nine years ago, the Lambert family was haunted by entities from another realm. Having survived a horrific incident (see Insidious and Insidious: Chapter 2), Josh Lambert (Patrick Wilson) and his son, Dalton (Ty Simpkins), decided to suppress their memories of the events, forgetting their ability to perform astral projection - a feat that allows their souls to leave their bodies while they sleep. A decade later, Dalton has just started college as an arts major. After being prompted to uncover his deepest and darkest memories in a drawing class, Dalton inadvertently unlocks the very piece of his memory meant to be secured in the depths of his mind. Strange things start happening to both father and son, and soon enough, they realise that while they may have forgotten all about their demons, their demons certainly have not forgotten about them.
 
-To start, Insidious: The Red Door is a solid entry to the franchise. It is enjoyable, filled with some good scares and has an emotional core that works for the most part. There are two key things the film did right. First, this fifth installment decides to go back to its roots and focuses its story on the Lambert family. 
+To start, Insidious: The Red Door is a solid entry into the franchise. It is enjoyable, filled with some good scares and has an emotional core that works for the most part. There are two key things the film did right. First, this fifth installment decides to go back to its roots and focuses its story on the Lambert family. 
 
 In the past, the franchise has gone to less interesting places by choosing to focus on the various cases of Elise Rainier (Lin Shaye). Granted, with the second chapter book-ending the Lambert haunting in a neat way, the alternative was to focus on Elise, the warm and approachable psychic character. The results are, however, mixed with those prequels, as each prequel ventures further and further away (no pun intended) from what made the first film especially endearing. By going back to the Lambert family and telling the story of what happened to them after all those years, the Red Door manages to reconnect the audience with what made many of us fall in love with the story of Insidious in the first place – our care for the family. And just like the characters reconnecting with their pasts, most of us are reconnecting with the family in the film, making it an emotional journey to go through together.
 
@@ -48,7 +48,7 @@ I would like to end the review with more of a personal note. Both the Insidious 
 
 In a way, I feel protective of both franchises. I could go on more about how I listened to Joseph Bishara’s soundtrack for the films late into the night as I did revision for my uni exams, or how the films helped me get through some tough times, but words just cannot convey the place the films have in my heart. Much like the Scream films did for teenagers in the 90’s, the Friday the 13th films in the 80’s, or the Exorcist back in the 70’s, Insidious will live on to become one of the defining horror films of this generation, and I am just glad that as an adult and an unapologetic horror fan, I am able to revisit the franchise and watch it with a more mature and analytic lens, yet still reliving the joyful memories from years ago. 
 
-All in all, Insidious: The Red Door is a solid entry in the franchise. Despite its flaws, the film’s desire to reconnect with its roots resonated with me, and I am delighted to be able to revisit the cinema particularly with my mum for this final entry.
+All in all, Insidious: The Red Door is a solid entry into the franchise. Despite its flaws, the film’s desire to reconnect with its roots resonated with me, and I am delighted to be able to revisit the cinema particularly with my mum for this final entry.
 
 <hr style="border-style: dashed">
 
