@@ -29,33 +29,35 @@
 </head>
 
 <body onload="onload()">
-    <div class="container">
-        <header>
-            <div class="inner">
-                <a href="{{ '/' | absolute_url }}">
-                    <h1>{{ site.title | default: site.github.repository_name }}</h1>
-                </a>
-
-                <h2><a href="https://www.youtube.com/watch?v=C7BB5kkK3PA&ab_channel=Crilyte"
-                        style="color: #7bd1ff; cursor: pointer;" target="_blank">Hello
-                        there!</a> Welcome to my blog.</h2>
+    <!-- <div class="mw-100 px-0"> -->
+        <header class="py-4 mw-100 px-0">
+            <div class="container">
+                <!-- <div class="inner"> -->
+                    <a href="{{ '/' | absolute_url }}">
+                        <h1 class="lh-1 mt-0">{{ site.title | default: site.github.repository_name }}</h1>
+                    </a>
+    
+                    <h2 class="mt-0 mb-0"><a href="https://www.youtube.com/watch?v=C7BB5kkK3PA&ab_channel=Crilyte"
+                            style="color: #7bd1ff; cursor: pointer;" target="_blank">Hello
+                            there!</a> Welcome to my blog.</h2>
+                <!-- </div> -->
             </div>
         </header>
-    </div>
+    <!-- </div> -->
 
     <div class="button-tray">
-        <ul>
-            <li>    
+        <ul class="d-flex">
+            <li class="d-inline-block">    
                 <button onclick="topFunction()" class="fa fa-angle-double-up" id="toTopBtn" title="Go to top"><span
-                class="label">Top</span></button>
+                class="label d-none">Top</span></button>
             </li>
-            <li>
-                <button onclick="toggleLightMode()" class="fa fa-brands" id="darkModeBtn" title="Toggle light mode"><span class="label">Toggle light mode</span></button>
+            <li class="d-inline-block">
+                <button onclick="toggleLightMode()" class="fa fa-brands" id="darkModeBtn" title="Toggle light mode"><span class="label d-none">Toggle light mode</span></button>
             </li>
         </ul>
     </div>
             
-    <main class="container">
+    <main class="container pt-4">
         <!-- <div class="inner clearfix"> -->
             <div class="row">
                 <div class="col-md-8" id="main-content">
@@ -72,15 +74,19 @@
                         <p class="fw-bold"><a class="fw-bold" href="/about">&raquo; About Me</a></p>
         
                         <!-- add  icons (github, linkedin, spotify) -->
-                        <ul class="icons">
-                            <li><a href="https://github.com/andreusjh99" class="icon fa fa-brands fa-github" target='_blank'><span
-                                        class="label">Github</span></a></li>
-                            <li><a href="https://www.linkedin.com/in/andreusjh99/" class="icon fa fa-brands fa-linkedin"
-                                    target='_blank'><span class="label">Linked-in</span></a></li>
-                            <li><a href="https://open.spotify.com/user/21gjwn5bxpvh2rn4asr534pgi?si=e3fc49df7b8540ba"
-                                    class="icon fa fa-brands fa-spotify" target='_blank'><span class="label">Spotify</span></a></li>
-                            <li><a href="mailto: andreusjh@gmail.com"
-                                class="icon fa-solid fa-envelope" target='_blank'><span class="label">Mail</span></a></li>
+                        <ul class="icons ps-0 ms-3 d-flex flex-grow-0 flex-shrink-0 list-unstyled">
+                            <li class="pe-2 d-inline-block align-middle">
+                                <a href="https://github.com/andreusjh99" class="icon fa fa-brands fa-github" target='_blank'><span class="label">Github</span></a>
+                            </li>
+                            <li class="pe-2 d-inline-block align-middle">
+                                <a href="https://www.linkedin.com/in/andreusjh99/" class="icon fa fa-brands fa-linkedin" target='_blank'><span class="label">Linked-in</span></a>
+                            </li>
+                            <li class="pe-2 d-inline-block align-middle">
+                                <a href="https://open.spotify.com/user/21gjwn5bxpvh2rn4asr534pgi?si=e3fc49df7b8540ba" class="icon fa fa-brands fa-spotify" target='_blank'><span class="label">Spotify</span></a>
+                            </li>
+                            <li class="pe-2 d-inline-block align-middle">
+                                <a href="mailto: andreusjh@gmail.com" class="icon fa-solid fa-envelope" target='_blank'><span class="label">Mail</span></a>
+                            </li>
                         </ul>
         
                         <div class="repo-owner lh-sm">

@@ -11,12 +11,12 @@ layout: home
   <h1>Blog Posts</h1>
   <!-- Add blog post section -->
   <div class="posts">
-    <ul>
+    <ul class="ps-4">
       {% for post in site.posts %}
-      <div class="post-item">
+      <div class="pb-2">
         <li>
           <span>{{ post.date | date_to_string }}</span> &raquo;
-          <a class="post-title-link" href="{{ post.url }}">{{ post.title }}</a>
+          <a class="fw-bold" href="{{ post.url }}">{{ post.title }}</a>
         </li>
   
         {% if post.description %}
