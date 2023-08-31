@@ -407,16 +407,16 @@ footer a:hover {
     font-size: var(--small-font);
 
     ul {
-      list-style: none;
-      padding-left: 0;
-      display: flex;
-      flex-grow: 0;
-      flex-shrink: 0;
+      // list-style: none;
+      // padding-left: 0;
+      // display: flex;
+      // flex-grow: 0;
+      // flex-shrink: 0;
 
       li {
-        display: inline-block;
+        // display: inline-block;
         padding: 0 5rem 0 0;
-        vertical-align: middle;
+        // vertical-align: middle;
 
         &:last-child {
           padding-right: 0;
@@ -494,30 +494,30 @@ footer a:hover {
     border-left: 7px solid #888888;
   }
 
-  // .table {
-  //   width: 100%;
-  //   max-width: 100%;
-  //   margin-bottom: 1rem;
-  //   border: none;
-  // }
+  .table {
+    // width: 100%;
+    // max-width: 100%;
+    // margin-bottom: 1rem;
+    border: none;
+  }
 
-  // .table th,
-  // .table td {
-  //   padding: 0.75rem;
-  //   vertical-align: top;
-  //   border: none;
-  //   // border-top: 1px solid #888888;
-  // }
+  .table th,
+  .table td {
+    // padding: 0.75rem;
+    // vertical-align: top;
+    border: none;
+    // border-top: 1px solid #888888;
+  }
 
   // .table thead th {
   //   vertical-align: bottom;
   //   border-bottom: 2px solid #888888;
   // }
 
-  // .table tbody {
-  //   border-top: 1px solid #888888;
-  //   border-bottom: 1px solid #888888;
-  // }
+  .table tbody {
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+  }
 
   // .table .table {
   //   background-color: #fff;
