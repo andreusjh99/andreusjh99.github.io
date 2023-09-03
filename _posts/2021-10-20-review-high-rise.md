@@ -2,6 +2,7 @@
 layout: post
 title: High-Rise (2015) - Review
 read: 4
+post-image: /assets/images/posts/films/high-rise.jpeg
 description: The vertical Snowpiercer
 director: Ben Wheatley
 screenplay: Amy Jump

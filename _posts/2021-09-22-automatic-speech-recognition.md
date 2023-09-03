@@ -2,6 +2,7 @@
 layout: post
 title:  Automatic Speech Recognition (ASR)
 read: 8
+post-image: /assets/images/posts/3_ASR/post.png
 description: A brief introduction to automatic speech recognition.
 categories: machine learning
 ---

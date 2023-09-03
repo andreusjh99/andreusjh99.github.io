@@ -2,6 +2,7 @@
 layout: post
 title: Unbreakable (2000) - Review
 read: 4
+post-image: /assets/images/posts/films/unbreakable.jpg
 description: A touching story of self discovery
 director: M. Night Shyamalan
 screenplay: M. Night Shyamalan

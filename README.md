@@ -4,7 +4,10 @@ In Progress
 
 Some notes (for myself):
 
-1. Installing Jekyll: https://jekyllrb.com/docs/installation/ubuntu/
+1. Installing Jekyll: 
+    https://jekyllrb.com/docs/installation/ubuntu/
+    https://jekyllrb.com/docs/installation/windows/
+    
 2. syntax highlighting for code snippets: `Rouge`
     
     current theme: `monokai`

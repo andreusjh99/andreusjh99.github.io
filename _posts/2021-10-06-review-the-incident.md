@@ -2,6 +2,7 @@
 layout: post
 title: The Incident (2014) - Review
 read: 4
+post-image: /assets/images/posts/films/the-incident.jpg
 description: Who are we but Sisyphi in different costumes?
 director: Isaac Ezban
 screenplay: Isaac Ezban
