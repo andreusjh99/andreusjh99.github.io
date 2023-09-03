@@ -2,6 +2,7 @@
 layout: post
 title: Spider-Man&#58; Across the Spider-Verse (2023) - Review
 read: 6
+post-image: /assets/images/posts/films/spider-man-across-the-spider-verse.jpg
 description: A far more daring, ambitious, and vibrant masterpiece in storytelling and animation
 director: Joaquim Dos Santos, Kemp Powers, Justin K. Thompson
 screenplay: Phil Lord, Christopher Miller, Dave Callaham
