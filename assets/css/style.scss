@@ -10,12 +10,15 @@
   --theme-blue1: #469fff;
   --theme-blue2: #275d97;
   --dark-bg: #252525;
+  --light-bg: #eeeeee;
 
   --header-light-mode-colour: #004288;
   --small-font: 0.8em;
   --blur-opacity: 70%;
 
   --bs-body-color: #fafafa;
+
+  --bg-color: var(--dark-bg);
 }
 
 html {
@@ -51,7 +54,7 @@ body {
   // font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: 400;
   line-height: 1.75;
-  background: var(--dark-bg);
+  background: var(--bg-color);
 }
 
 p {
@@ -505,7 +508,7 @@ footer a:hover {
 // totop button
 #darkModeBtn {
   display: block;
-  background-color: var(--dark-bg);
+  background-color: var(--bg-color);
   border: solid 2px;
   border-color: var(--theme-blue1);
 
@@ -538,6 +541,10 @@ footer a:hover {
     }
   }
 
+  .post-image {
+    min-height: 200px;
+  }
+
   .data {
     position: absolute;
     bottom: 0;
@@ -557,7 +564,11 @@ footer a:hover {
     padding-bottom: 0.75rem;
 
     a{
-      color: lighten(black, 50%);
+      color: var(--bs-body-color);
+
+      &:hover {
+        color: var(--theme-blue1);
+      }
     }
   }
 
@@ -598,8 +609,8 @@ footer a:hover {
   }
 
   .content {
-    background-color: #eeeeee;
-    color: #000000;
+    background-color: var(--bg-color);
+    // color: #000000;
     box-shadow: 0 5px 30px 10px rgba(black, 0.3);
   }
 }
@@ -645,7 +656,8 @@ a {
 
 body.light-mode {
   --bs-body-color: #000000;
-  background: #eeeeee;
+  --bg-color: var(--light-bg);
+  // background: #eeeeee;
 
   hr {
     border-color: #000000;
@@ -680,7 +692,7 @@ body.light-mode {
   }
 
   #darkModeBtn {
-    background-color: white;
+    // background-color: #eeeeee;
     color: var(--dark-bg);
   }
 

@@ -10,7 +10,7 @@ layout: home
 
   <h1>Blog Posts</h1>
   <!-- Add blog post section -->
-  <div class="posts">
+  <!-- <div class="posts">
     <ul class="ps-4">
       {% for post in site.posts %}
       <div class="pb-2">
@@ -25,23 +25,25 @@ layout: home
       </div>
       {% endfor %}
     </ul>
-  </div>
+  </div> -->
 
   <div class="posts">
     <div class="row">
       {% for post in site.posts %}
       <div class="col-xl-4 col-md-6 card-post">
-        <div class="wrapper" style="background: url('{{ post.post-image }}') 50% 1% / cover no-repeat">
-          <div class="date">
-            <span class="day">{{ post.date | date_to_string }}</span>
-            <!-- <span class="day">12</span>
-            <span class="month">Aug</span>
-            <span class="year">2016</span> -->
-          </div>
-          <div class="data">
-            <div class="content">
-              <div class="title"><a class="fw-bold" href="{{ post.url }}">{{ post.title }}</a></div>
-              <p class="text post-description mb-0">{{ post.description }}</p>
+        <div class="wrapper" >
+          <div class="post-image" style="background: url('{{ post.post-image }}') 50% 50% / cover no-repeat">
+            <div class="date">
+              <span class="day">{{ post.date | date_to_string }}</span>
+              <!-- <span class="day">12</span>
+              <span class="month">Aug</span>
+              <span class="year">2016</span> -->
+            </div>
+            <div class="data">
+              <div class="content">
+                <div class="title"><a class="fw-bold" href="{{ post.url }}">{{ post.title }}</a></div>
+                <p class="text post-description mb-0">{{ post.description }}</p>
+              </div>
             </div>
           </div>
         </div>

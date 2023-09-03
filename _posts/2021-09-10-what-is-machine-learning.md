@@ -2,6 +2,7 @@
 layout: post
 title:  What is Machine Learning?
 read: 8
+post-image: /assets/images/posts/2_machinelearning/post.jpg
 description: What machine learning actually is, and the main types of machine learning algorithms.
 categories: machine learning
 ---
