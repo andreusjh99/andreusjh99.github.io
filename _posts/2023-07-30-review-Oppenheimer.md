@@ -2,6 +2,7 @@
 layout: post
 title: Oppenheimer (2023) - Review
 read: 7
+post-image: /assets/images/posts/films/oppenheimer.jpg
 description: Nolan’s magnum opus
 director: Christopher Nolan
 screenplay: Christopher Nolan

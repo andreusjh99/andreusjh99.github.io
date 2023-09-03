@@ -2,6 +2,7 @@
 layout: post
 title: Scream VI (2023) - Review
 read: 6
+post-image: /assets/images/posts/films/scream6.jpg
 description: Unexpected improvement over its very recent predecessor
 director: Tyler Gillett, Matt Bettinelli-Olpin
 screenplay: James Vanderbilt, Guy Busick
@@ -15,7 +16,7 @@ categories: film review
 
 <figure class="film">
   <img src="/assets/images/posts/films/scream6.jpg" alt="Scream VI movie still">
-  <figcaption><i class="fa-solid fa-film"></i> Scream, directed by Tyler Gillett and Matt Bettinelli-Olpin</figcaption>
+  <figcaption><i class="fa-solid fa-film"></i> Scream VI, directed by Tyler Gillett and Matt Bettinelli-Olpin</figcaption>
 </figure>
 
 One year after the Woodsboro killings, the Carpenter sisters, Sam and Tara (Melissa Barrera and Jenna Ortega), now live in New York City, where Tara attends university. Sam has been a victim of harassment in real life and online, as conspiracy theories about the true mastermind behind those killings circulate around the internet, with people believing her to be the orchestrator and that Richie and Amber (the killers in Scream 2022) were scapegoats. Among these circumstances, however, there is at least one person who is willing to take a step further and to continue the legacy of the Ghostface killers that came before them.

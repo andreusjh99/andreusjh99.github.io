@@ -2,6 +2,7 @@
 layout: post
 title: Indiana Jones and the Dial of Destiny (2023) - Review
 read: 6
+post-image: /assets/images/posts/films/indiana-jones-dial-of-destiny.jpg
 description: An entertaining film with heart and humour, but lacking in novelty and satisfaction
 director: James Mangold
 screenplay: Jez Butterworth, John-Henry Butterworth, David Koepp, James Mangold

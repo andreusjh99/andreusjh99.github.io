@@ -43,7 +43,7 @@ Take the Mumbattan sequence, for instance. Breakneck pacing in the animation and
 <div class="film-trailer">
 <figure>
   <iframe src="https://www.youtube.com/embed/cqGjhVJWtEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <figcaption><i class="fa-brands fa-youtube"></i> Trailer for High-Rise (2015)</figcaption>
+  <figcaption><i class="fa-brands fa-youtube"></i> Trailer for Spider-Man: Across the Spider-Verse (2023)</figcaption>
 </figure>
 </div>
 

@@ -2,6 +2,7 @@
 layout: post
 title: Insidious&#58; The Red Door (2023) - Review
 read: 6
+post-image: /assets/images/posts/films/Insidious_red_door.jpg
 description: A solid entry into the franchise
 director: Patrick Wilson
 screenplay: Scott Teems

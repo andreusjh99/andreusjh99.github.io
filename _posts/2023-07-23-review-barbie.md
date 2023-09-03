@@ -2,6 +2,7 @@
 layout: post
 title: Barbie (2023) - Review
 read: 6
+post-image: /assets/images/posts/films/barbie.jpeg
 description: Expectedly complex, but surprisingly philosophical
 director: Greta Gerwig
 screenplay: Greta Gerwig, Noah Baumbach
