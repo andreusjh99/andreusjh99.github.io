@@ -2,14 +2,14 @@
 layout: post
 title:  Exception Handling in Promises
 read: 6
-post-image: /assets/images/posts/10_promise_exception/post.jpg
+post-image: /assets/images/posts/6_promise_exception/post.jpg
 description: How to handle exceptions in JavaScript promises
 categories: software development
 ---
 
 ---
 
-![](/assets/images/posts/10_promise_exception/post.jpg)
+![](/assets/images/posts/6_promise_exception/post.jpg)
 
 
 ## Introduction to promises {#promise}
