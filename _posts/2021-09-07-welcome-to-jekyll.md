@@ -149,3 +149,7 @@ Once included, you may use LaTeX code to write Math. The end result looks like t
 **Jekyll** is an easy-to-use static site generator for anyone interested to get started with their own website. It is straight-forward to get started and has many useful features. Most importantly, it is hassle-free to add a new blog post. 
 
 This blog site is built using Jekyll.
+
+---
+
+**Author**: <a href="https://github.com/andreusjh99" target="_blank">Chia Jing Heng (andreusjh99)</a>
