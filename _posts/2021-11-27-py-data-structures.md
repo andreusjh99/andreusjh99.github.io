@@ -19,7 +19,7 @@ Data structure is a way of storing and organising data. In **Python**, there are
 
 This post focuses on the syntax and fundamental capabilities of the data structures.
 
-## List {#list}
+# List {#list}
 
 A list, as its name suggests, keeps data in a list. A list is an **ordered** collection, i.e. items in a list follow the order they were added into the list.
 
@@ -125,7 +125,7 @@ m = sorted(l) # m = [1, 2, 3, 4, 5, 8], l = [5, 4, 8, 3, 2, 1]
 
 {% endhighlight %}
 
-## Tuple {#tuple}
+# Tuple {#tuple}
 
 Tuple is a collection of items that are **ordered** and **immutable**. This means that, unlike a list, a tuple once created cannot be changed: value of items in a tuple cannot be changed, new items cannot be added, and no items can be removed from a tuple.
 
@@ -188,7 +188,7 @@ p = a.count(2) # p = 1
 
 <hr style="border-style: dashed">
 
-### When will you use a tuple over a list?
+## When will you use a tuple over a list?
 Both list and tuple are ordered collections, but the key difference is that list is mutable while tuple is immutable.
 
 You should use a tuple to store data if you know that it will not be changed or when you do not want them changed.
@@ -197,7 +197,7 @@ You should use a tuple to store data if you know that it will not be changed or 
 - Tuples can be used as keys in a [dictionary](#dict) while lists cannot.
 <hr style="border-style: dashed">
 
-## Set {#set}
+# Set {#set}
 A set is an **unordered** and **mutable** collection of objects. Since it is unordered, there is no certainty about the order the items in a set will appear. 
 
 In a set there is no duplicate item. You usually use a set when the **existence** of an object in a collection is more important than the order or how many times it occurs.
@@ -225,7 +225,7 @@ c.remove(3) # c = {1, 2, 5}
 The greatest advantage of a set over a list is its <b>cost efficiency in searching</b>. Searching in a list will induce a worst case efficiency of $n$ where $n$ is the length of the list, while searching in a set will induce a worst case efficiency of 1 regardless of the size of the set.
 </p>
 
-## Dict {#dict}
+# Dict {#dict}
 
 A dictionary is an **ordered** and **mutable** collection of items in the form of a **key-value pair**. Each item in a list has a key and a value. The key is used to retrieve the value of the item. No duplicates are allowed in a dict, which means that each key can only appear once in a dict.
 

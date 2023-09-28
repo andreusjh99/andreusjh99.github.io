@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Java terms you might be interested in learning
+title:  Java terms you will be interested in learning
 read: 5
 post-image: /assets/images/posts/8_java_terms/post.jpeg
-description: A brief rundown of terms in Java that might be confusing for some who are starting out with Java.
+description: A brief rundown of terms in Java that may be confusing for some who are starting out with Java.
 categories: software development
 ---
 
@@ -13,7 +13,7 @@ categories: software development
 
 **Java** is a high-level, class-based, object-oriented programming language. It is described as a **Write-Once, Run-Anywhere (WORA)** language, meaning it is meant to be compiled only once, and will be able to be run on any platform.
 
-This post is NOT about programming with Java. It is about terms that you might come across but are not quite sure about while learning Java. In this post, I will provide a brief rundown of some of these Java terms to help you understand them:
+This post is NOT about programming with Java. It is about terms that you may have come across but are not quite sure about while learning Java. In this post, I will provide a brief rundown of some of these Java terms to help you understand them:
 - [Java Versions](#java-versions)
 - [Java Runtime Environment (JRE)](#java-runtime-environment-jre)
 - [Java Development Kit (JDK)](#java-development-kit-jdk)
