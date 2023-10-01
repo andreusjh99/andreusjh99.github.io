@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Exception Handling in Promises
+title:  Exception Handling in JavaScript Promises
 read: 6
 post-image: /assets/images/posts/6_promise_exception/post.jpg
 description: How to handle exceptions in JavaScript promises
