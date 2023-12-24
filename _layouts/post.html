@@ -48,6 +48,16 @@ layout: home
   </div>
 </div>
 
+<hr>
+
+<div class="film-review">
+  {% if page.description %}
+    {% if page.categories contains "film" %}
+      <h2>{{ page.description | default: "" }}</h2>
+    {% endif %}
+  {% endif %}
+</div>
+
 {{ content }}
 
 <script

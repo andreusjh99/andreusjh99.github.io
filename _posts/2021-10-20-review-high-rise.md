@@ -10,10 +10,6 @@ rating: 6.75/10
 categories: film review
 ---
 
----
-
-## The vertical Snowpiercer
-
 <figure class="film">
   <img src="/assets/images/posts/films/high-rise.jpeg" alt="High-Rise movie still">
   <figcaption><i class="fa-solid fa-film"></i> Ben Wheatley's High-Rise </figcaption>

@@ -10,10 +10,6 @@ rating: 10/10
 categories: film review
 ---
 
----
-
-## Nolan’s magnum opus
-
 <figure class="film">
   <img src="/assets/images/posts/films/oppenheimer.jpg" alt="Oppenheimer movie still">
   <figcaption><i class="fa-solid fa-film"></i> Oppenheimer, directed by Christopher Nolan</figcaption>

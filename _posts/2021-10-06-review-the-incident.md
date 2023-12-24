@@ -10,10 +10,6 @@ rating: 7.5/10
 categories: film review
 ---
 
----
-
-## Who are we but Sisyphi in different costumes?
-
 <figure class="film">
   <img src="/assets/images/posts/films/the-incident.jpg" alt="The Incident movie still">
   <figcaption><i class="fa-solid fa-film"></i> Isaac Ezban's El Incidente </figcaption>

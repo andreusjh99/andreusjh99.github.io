@@ -10,10 +10,6 @@ rating: 6.5/10
 categories: film review
 ---
 
----
-
-## An entertaining film with heart and humour, but lacking in novelty and satisfaction
-
 <figure class="film">
   <img src="/assets/images/posts/films/indiana-jones-dial-of-destiny.jpg" alt="Indiana Jones and the Dial of Destiny movie still">
   <figcaption><i class="fa-solid fa-film"></i>Indiana Jones and the Dial of Destiny, directed by James Mangold</figcaption>

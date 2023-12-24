@@ -7,8 +7,6 @@ description: Friendly introduction to Jekyll and how to get started
 categories: software development
 ---
 
----
-
 ![](/assets/images/posts/1_jekyll/post.jpg)
 
 **Jekyll** is a **static site generator**. A static site generator generates a full static HTML website based on raw data and templates. In Jekyll, data is written in **markup**, and templates are known as **layouts**.

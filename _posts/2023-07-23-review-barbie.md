@@ -10,10 +10,6 @@ rating: 8.5/10
 categories: film review
 ---
 
----
-
-## Expectedly complex, but surprisingly philosophical
-
 <figure class="film">
   <img src="/assets/images/posts/films/barbie.jpeg" alt="Barbie movie still">
   <figcaption><i class="fa-solid fa-film"></i> Barbie, directed by Greta Gerwig</figcaption>

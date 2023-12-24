@@ -10,10 +10,6 @@ rating: 8/10
 categories: film review
 ---
 
----
-
-## This bloodiest entry offers many interesting elements, some of which are unexpected and welcome.
-
 <figure class="film">
   <img src="/assets/images/posts/films/saw-x.jpeg" alt="Saw X movie still">
   <figcaption><i class="fa-solid fa-film"></i> Saw X, directed by Kevin Greutert</figcaption>

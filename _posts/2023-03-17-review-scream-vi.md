@@ -10,10 +10,6 @@ rating: 7.25/10
 categories: film review
 ---
 
----
-
-## Unexpected improvement over its very recent predecessor
-
 <figure class="film">
   <img src="/assets/images/posts/films/scream6.jpg" alt="Scream VI movie still">
   <figcaption><i class="fa-solid fa-film"></i> Scream VI, directed by Tyler Gillett and Matt Bettinelli-Olpin</figcaption>

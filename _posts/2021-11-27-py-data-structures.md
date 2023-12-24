@@ -7,8 +7,6 @@ description: Introduction to the built-in data structures of Python
 categories: software development
 ---
 
----
-
 ![](/assets/images/posts/7_py_datastructures/post.jpeg)
 
 Data structure is a way of storing and organising data. In **Python**, there are four built-in data structures:

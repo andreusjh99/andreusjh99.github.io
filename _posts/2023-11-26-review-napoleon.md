@@ -10,10 +10,6 @@ rating: 7.75/10
 categories: film review
 ---
 
----
-
-## Less of a study and introspection of Napoleon’s legacy, but more about his relationship with Joséphine
-
 <figure class="film">
   <img src="/assets/images/posts/films/napoleon.jpg" alt="Napoleon movie still">
   <figcaption><i class="fa-solid fa-film"></i> Napoleon, directed by Ridley Scott</figcaption>

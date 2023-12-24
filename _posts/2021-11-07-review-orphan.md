@@ -10,10 +10,6 @@ rating: 7.5/10
 categories: film review
 ---
 
----
-
-## There is something wrong with Esther
-
 <figure class="film">
   <img src="/assets/images/posts/films/orphan.jpg" alt="Orphan movie still">
   <figcaption><i class="fa-solid fa-film"></i> Jaume Collet-Serra's Orphan </figcaption>

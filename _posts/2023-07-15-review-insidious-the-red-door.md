@@ -10,10 +10,6 @@ rating: 6.75/10
 categories: film review
 ---
 
----
-
-## A solid entry into the franchise
-
 <figure class="film">
   <img src="/assets/images/posts/films/Insidious_red_door.jpg" alt="Insidious: The Red Door movie still">
   <figcaption><i class="fa-solid fa-film"></i> Insidious: The Red Door, directed by Patrick Wilson</figcaption>

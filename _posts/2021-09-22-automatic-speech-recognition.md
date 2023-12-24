@@ -7,8 +7,6 @@ description: A brief introduction to automatic speech recognition.
 categories: machine learning
 ---
 
----
-
 ![](/assets/images/posts/3_ASR/post.png#colour-correct)
 # ASR
 

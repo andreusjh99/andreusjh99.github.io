@@ -10,10 +10,6 @@ rating: 9/10
 categories: film review
 ---
 
----
-
-## Emotional, heart wrenching, and at times repulsive, as it should be
-
 <figure class="film">
   <img src="/assets/images/posts/films/killers-of-the-flower-moon.jpg" alt="Killers of the Flower Moon movie still">
   <figcaption><i class="fa-solid fa-film"></i> Killers of the Flower Moon, directed by Martin Scorsese</figcaption>

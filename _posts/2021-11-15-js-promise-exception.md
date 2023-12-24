@@ -7,8 +7,6 @@ description: How to handle exceptions in JavaScript promises
 categories: software development
 ---
 
----
-
 ![](/assets/images/posts/6_promise_exception/post.jpg)
 
 

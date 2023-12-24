@@ -10,10 +10,6 @@ rating: 9.5/10
 categories: film review
 ---
 
----
-
-## A touching story of self discovery
-
 <figure class="film">
   <img src="/assets/images/posts/films/unbreakable.jpg" alt="Unbreakable movie still">
   <figcaption><i class="fa-solid fa-film"></i> M. Night Shyamalan's Unbreakable </figcaption>

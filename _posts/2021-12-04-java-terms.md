@@ -7,8 +7,6 @@ description: A brief rundown of terms in Java that may be confusing for some who
 categories: software development
 ---
 
----
-
 ![](/assets/images/posts/8_java_terms/post.jpeg)
 
 **Java** is a high-level, class-based, object-oriented programming language. It is described as a **Write-Once, Run-Anywhere (WORA)** language, meaning it is meant to be compiled only once, and will be able to be run on any platform.

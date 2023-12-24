@@ -7,8 +7,6 @@ description: What machine learning actually is, and the main types of machine le
 categories: machine learning
 ---
 
----
-
 ![](/assets/images/posts/2_machinelearning/post.jpg#colour-correct)
 
 # Machine Learning

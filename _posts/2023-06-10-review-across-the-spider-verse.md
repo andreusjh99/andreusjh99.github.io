@@ -10,10 +10,6 @@ rating: 9.5/10
 categories: film review
 ---
 
----
-
-## A far more daring, ambitious, and vibrant masterpiece in storytelling and animation
-
 <figure class="film">
   <img src="/assets/images/posts/films/spider-man-across-the-spider-verse.jpg" alt="Spider-Man: Across the Spider-Verse movie still">
   <figcaption><i class="fa-solid fa-film"></i> Spider-Man: Across the Spider-Verse, directed by Joaquim Dos Santos, Kemp Powers and Justin K. Thompson</figcaption>

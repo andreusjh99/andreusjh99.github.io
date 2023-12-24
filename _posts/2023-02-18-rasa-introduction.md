@@ -7,8 +7,6 @@ description: Rasa - A Python framework for building conversational AI chatbots u
 categories: software development
 ---
 
----
-
 ![](/assets/images/posts/10_rasa_intro/post.jpg)
 
 With the towering capabilities of ChatGPT, chatbots have been the talk of the town for a while now. Many companies are offering conversational chatbots for users as a tool to improve customer service and to reduce the workload of customer support teams. These conversational chatbots are superior to rule-based chatbots with their ability to mimic the way humans converse, rather than forcing users to ask specific questions using specific phrases and replying with fixed answers.
