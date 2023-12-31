@@ -2,7 +2,7 @@
 layout: post
 title: Spider-Man&#58; Across the Spider-Verse (2023) - Review
 read: 6
-post-image: /assets/images/posts/films/spider-man-across-the-spider-verse.jpg
+post-image: /assets/images/posts/films/spider-man-across-the-spider-verse.webp
 description: A far more daring, ambitious, and vibrant masterpiece in storytelling and animation
 director: Joaquim Dos Santos, Kemp Powers, Justin K. Thompson
 screenplay: Phil Lord, Christopher Miller, Dave Callaham
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/spider-man-across-the-spider-verse.jpg" alt="Spider-Man: Across the Spider-Verse movie still">
+  <img src="/assets/images/posts/films/spider-man-across-the-spider-verse.webp" alt="Spider-Man: Across the Spider-Verse movie still">
   <figcaption><i class="fa-solid fa-film"></i> Spider-Man: Across the Spider-Verse, directed by Joaquim Dos Santos, Kemp Powers and Justin K. Thompson</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ Following the incident with Kingpin and his collider in the previous film (Into 
 Released in 2018, Spider-Man: Into the Spider-Verse opened our eyes to the potential of the multiverse as a powerful storytelling device, a feat that was continued by the marvellous Academy Award-winning A24 film Everything, Everywhere, All at Once. Into the Spider-Verse brilliantly employs the multiverse as a tool to allow the characters to explore their identity and their place in the universe. A central idea that truly resonates and is, ultimately, the crux to its brilliance is that anyone can be Spider-Man, or in other words, anyone can be a hero. It is up to you to tell your own story. The optimism and heroism were once signatures of Spider-Man, thanks to the Sam Raimi films, but they have gradually diminished over the years through multiple iterations of the titular character on screen. With the release of Spider-Verse, they were brought back in brilliant fashion and left most audiences feeling truly refreshed by the notion of a new iteration of the hero. The ground-breaking animation and the introduction of comic-book styles into feature film animation left many craving more of the same.
 
 <figure class="film">
-  <img src="/assets/images/posts/films/spider-man-across-the-spider-verse-2.jpg" alt="Spider-Man: Across the Spider-Verse movie still">
+  <img src="/assets/images/posts/films/spider-man-across-the-spider-verse-2.webp" alt="Spider-Man: Across the Spider-Verse movie still">
   <figcaption><i class="fa-solid fa-film"></i> Gwen Stacy (Hailee Steinfeld) with Miles Morales (Shameik Moore) in Spider-Man: Across the Spider-Verse</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ Across the Spider-Verse features a star-studded ensemble cast, with Daniel Kaluu
 Daniel Pemberton returns as the composer of the original score for the sequel, bringing with him a rip-roaring masterpiece of a soundtrack. As diverse as the animation styles are, the soundtrack features many styles and genres, keeping up with the film in its exploration of the different worlds and characters. Action sequences are loaded with such vivacity and energy thanks to his brilliant music. Special shoutouts to a few tracks here: <a href="https://open.spotify.com/track/0HuIPfHavk3tsXOtpuyT0O?si=980b425262834cf9" target="_blank">"Spider-Woman"</a>, <a href="https://open.spotify.com/track/6JzXhKJhK1UKTCwZTvchP2?si=fde7a70e23ec46dd" target="_blank">"Spider-Man India"</a> and <a href="https://open.spotify.com/track/6iD9kcWB4h25t7OX8Xk6wT?si=e98bd987234b4c4c" target="_blank">"Spider-Man 2099"</a>. Along with the instrumental score is a compilation of music by Metro Boomin, which sets out to rival the popular and effective 2018 soundtrack compilation featuring the ultimate earworm that is <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P?si=c4e8ba3084ca4c76" target="_blank">“Sunflower” (by Post Malone and Swae Lee)</a>. Especially notable tunes in this year’s compilation include <a href="https://open.spotify.com/track/0grfvXep0gn5nXdQoHue1a?si=126f2b2e9539471b" target="_blank">“Annihilate” (by Metro Boomin, Swae Lee, Lil Wayne, and Offset)</a>, and <a href="https://open.spotify.com/track/37CoOXIsgF3NzbK1zHZetk?si=ee95b7acda1e4a14" target="_blank">“Mona Lisa” (by Dominic Fike)</a>.
 
 <figure class="film">
-  <img src="/assets/images/posts/films/spider-man-across-the-spider-verse-3.jpg" alt="Spider-Man: Across the Spider-Verse movie still">
+  <img src="/assets/images/posts/films/spider-man-across-the-spider-verse-3.webp" alt="Spider-Man: Across the Spider-Verse movie still">
   <figcaption><i class="fa-solid fa-film"></i> Spider-Man: Across the Spider-Verse - every frame a painting</figcaption>
 </figure>
 

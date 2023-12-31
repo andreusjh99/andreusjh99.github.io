@@ -2,7 +2,7 @@
 layout: post
 title: The Boy and The Heron (2023) - Review
 read: 7
-post-image: /assets/images/posts/films/theboyandtheheron.jpg
+post-image: /assets/images/posts/films/theboyandtheheron.webp
 description: A deeply personal, emotional, and wondrous film, teeming with imagination and full of heart
 director: Hayao Miyazaki
 screenplay: Hayao Miyazaki
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/theboyandtheheron.jpg" alt="The Boy and The Heron movie still">
+  <img src="/assets/images/posts/films/theboyandtheheron.webp" alt="The Boy and The Heron movie still">
   <figcaption><i class="fa-solid fa-film"></i> The Boy and The Heron, directed by Hayao Miyazaki</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ While alone for most of the time, Mahito is frequently visited by a grey heron (
 
 
 <figure class="film">
-  <img src="/assets/images/posts/films/theboyandtheheron_2.jpg" alt="The Boy and The Heron movie still">
+  <img src="/assets/images/posts/films/theboyandtheheron_2.webp" alt="The Boy and The Heron movie still">
   <figcaption><i class="fa-solid fa-film"></i> Mahito Maki (Soma Santoki) in The Boy and The Heron</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ Starting off at a slower pace, the film feels like a small-scale coming-of-age s
 In the classic Studio Ghibli hand-drawn animation style, Miyazaki invites us once again into his imaginative mind and opens the door to a mind-bending dreamscape that I believe works best in an animated format. From ball-like spirits that feast on giant prehistoric fish to a girl who emerges from fire – watching the film on a big screen, I was dazzled and amazed. Sequences left me gaping in awe like a kid, yet the film also leaves my heart wrenching at times. Looking back, however, the two halves of the film did feel slightly disjointed. The slower first act and the fantastical second and third acts feel like two different films. While I enjoyed the first act, once we got to the second act, I wished that we were in the spiritual dream world sooner, at the half-hour mark rather than at the one-hour mark.
 
 <figure class="film">
-  <img src="/assets/images/posts/films/theboyandtheheron_3.jpeg.webp" alt="The Boy and The Heron movie still">
+  <img src="/assets/images/posts/films/theboyandtheheron_3.webp" alt="The Boy and The Heron movie still">
   <figcaption><i class="fa-solid fa-film"></i> The Boy and The Heron</figcaption>
 </figure>
 

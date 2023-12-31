@@ -2,7 +2,7 @@
 layout: post
 title: Indiana Jones and the Dial of Destiny (2023) - Review
 read: 6
-post-image: /assets/images/posts/films/indiana-jones-dial-of-destiny.jpg
+post-image: /assets/images/posts/films/indiana-jones-dial-of-destiny.webp
 description: An entertaining film with heart and humour, but lacking in novelty and satisfaction
 director: James Mangold
 screenplay: Jez Butterworth, John-Henry Butterworth, David Koepp, James Mangold
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/indiana-jones-dial-of-destiny.jpg" alt="Indiana Jones and the Dial of Destiny movie still">
+  <img src="/assets/images/posts/films/indiana-jones-dial-of-destiny.webp" alt="Indiana Jones and the Dial of Destiny movie still">
   <figcaption><i class="fa-solid fa-film"></i>Indiana Jones and the Dial of Destiny, directed by James Mangold</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ Indiana Jones and the Dial of Destiny is great fun. To get things out of the way
 Indy no longer is the young and brash treasure hunter as he once was – and neither is Harrison Ford as an action star. Age has taken a toll on both star and character physically and emotionally. The filmmakers understand this. The film reminisces through lingering shots of Indy’s lone figure and Williams’ nostalgic score, and it certainly encourages the audience to do the same. I am particularly fond of the contrast that happens near the start of the film. Right off the bat, the film reveals a young (de-aged) Indiana Jones and launches the audience into a nail-biting sequence involving Indy getting out of a noose with a bomb in the room. Immediately, we are reminded of the good old thrill of watching Raiders for the first time. Cut to 1969, we are greeted with the juxtaposition of an elderly Harrison Ford, half-naked and alone in his apartment, yelling at his neighbours for playing loud music. 
 
 <figure class="film">
-  <img src="/assets/images/posts/films/indiana-jones-dial-of-destiny_2.jpg" alt="Indiana Jones and the Dial of Destiny movie still">
+  <img src="/assets/images/posts/films/indiana-jones-dial-of-destiny_2.webp" alt="Indiana Jones and the Dial of Destiny movie still">
   <figcaption><i class="fa-solid fa-film"></i> Indiana Jones (Harrison Ford) and Helena Shaw (Phoebe Waller-Bridge) in Indiana Jones and the Dial of Destiny</figcaption>
 </figure>
 

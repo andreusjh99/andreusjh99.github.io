@@ -2,7 +2,7 @@
 layout: post
 title: Insidious&#58; The Red Door (2023) - Review
 read: 6
-post-image: /assets/images/posts/films/Insidious_red_door.jpg
+post-image: /assets/images/posts/films/Insidious_red_door.webp
 description: A solid entry into the franchise
 director: Patrick Wilson
 screenplay: Scott Teems
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/Insidious_red_door.jpg" alt="Insidious: The Red Door movie still">
+  <img src="/assets/images/posts/films/Insidious_red_door.webp" alt="Insidious: The Red Door movie still">
   <figcaption><i class="fa-solid fa-film"></i> Insidious: The Red Door, directed by Patrick Wilson</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ On the technical side, the scares are pretty much what you expect and they are m
 There is, however, one scare that I particularly enjoy. Not because I did not see it coming, but I certainly did not expect to be grossed out by it (some projectile was involved). In the screening I went to, most screamed in terror, but the scene genuinely cracked me up. This is perhaps the most unexpectedly laugh-out-loud scare that I can remember experiencing in a horror film in a while.
 
 <figure class="film">
-  <img src="/assets/images/posts/films/Insidious_red_door_2.jpg" alt="Insidious: The Red Door movie still">
+  <img src="/assets/images/posts/films/Insidious_red_door_2.webp" alt="Insidious: The Red Door movie still">
   <figcaption><i class="fa-solid fa-film"></i> Dalton (Ty Simpkins) in Insidious: The Red Door</figcaption>
 </figure>
 

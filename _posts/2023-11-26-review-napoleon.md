@@ -2,7 +2,7 @@
 layout: post
 title: Napoleon (2023) - Review
 read: 6
-post-image: /assets/images/posts/films/napoleon.jpg
+post-image: /assets/images/posts/films/napoleon.webp
 description: Less of a study and introspection of Napoleon’s legacy, but more about his relationship with Joséphine
 director: Ridley Scott
 screenplay: David Scarpa
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/napoleon.jpg" alt="Napoleon movie still">
+  <img src="/assets/images/posts/films/napoleon.webp" alt="Napoleon movie still">
   <figcaption><i class="fa-solid fa-film"></i> Napoleon, directed by Ridley Scott</figcaption>
 </figure>
 

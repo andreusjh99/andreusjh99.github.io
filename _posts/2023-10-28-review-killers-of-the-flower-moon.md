@@ -2,7 +2,7 @@
 layout: post
 title: Killers of the Flower Moon (2023) - Review
 read: 7
-post-image: /assets/images/posts/films/killers-of-the-flower-moon.jpg
+post-image: /assets/images/posts/films/killers-of-the-flower-moon.webp
 description: Emotional, heart wrenching, and at times repulsive, as it should be
 director: Martin Scorsese
 screenplay: Eric Roth, Martin Scorsese
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/killers-of-the-flower-moon.jpg" alt="Killers of the Flower Moon movie still">
+  <img src="/assets/images/posts/films/killers-of-the-flower-moon.webp" alt="Killers of the Flower Moon movie still">
   <figcaption><i class="fa-solid fa-film"></i> Killers of the Flower Moon, directed by Martin Scorsese</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ Ernest Burkhart (Leonardo DiCaprio) and William King Hale (Robert De Niro) are p
 Adapted from the 2017 non-fictional book of the same name by David Grann, the film takes a different perspective into the story from the book. While the script initially centres around a BOI (Bureau of Investigation, later known as the FBI) agent, Thomas White, and his investigations of the Osage murders as the book did, the filmmakers decide to pivot and find a different way into the story through Ernest Burkhart’s character. This change in direction is, in my opinion, brilliant, as it allows the film to explore the Osage Nation from the perspective of an outsider who becomes deeply rooted in the Osage society. The result is a sweeping narrative that starts with Burkhart taking in the vibrant Osage tribe and wealth as he first returns to his ranch after the war. His innocence is then eroded and his appetite is expanded by his uncle who claims to be a true friend of the Osage, leading to the unrecoverable damage he does to the tribe.
 
 <figure class="film">
-  <img src="/assets/images/posts/films/killers-of-the-flower-moon_2.jpg" alt="Killers of the Flower Moon movie still">
+  <img src="/assets/images/posts/films/killers-of-the-flower-moon_2.webp" alt="Killers of the Flower Moon movie still">
   <figcaption><i class="fa-solid fa-film"></i> Mollie Burkhart (Lily Gladstone) in Killers of the Flower Moon</figcaption>
 </figure>
 

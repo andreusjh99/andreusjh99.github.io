@@ -2,7 +2,7 @@
 layout: post
 title: Wonka (2023) - Review
 read: 4
-post-image: /assets/images/posts/films/wonka.jpg
+post-image: /assets/images/posts/films/wonka.webp
 description: Well, there's chocolate, and there's chocolate
 director: Paul King
 screenplay: Simon Farnaby, Paul King
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/wonka.jpg" alt="Wonka movie still">
+  <img src="/assets/images/posts/films/wonka.webp" alt="Wonka movie still">
   <figcaption><i class="fa-solid fa-film"></i> Wonka, directed by Paul King</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ In an unknown year, Willy Wonka (Timothée Chalamet) arrives with “12 silver s
 To pay them off, Wonka heads to the Gallery Gourmet the next day to sell his brand-new chocolate. Successfully dazzling the people, his earnings, however, are confiscated by the police. Unable to pay back the monumental fees incurred in the fine print of the contract, Wonka is captured to work for Scrubitt along with other captives, though Wonka is still optimistic about his dream to open a chocolate shop here at the Gallery Gourmet. Little does he know that there are other dangers lying ahead, including a group of monopolising rival chocolatiers known as the Chocolate Cartel.
 
 <figure class="film">
-  <img src="/assets/images/posts/films/wonka_2.jpg" alt="Wonka movie still">
+  <img src="/assets/images/posts/films/wonka_2.webp" alt="Wonka movie still">
   <figcaption><i class="fa-solid fa-film"></i> The Chocolate Cartel (Mathew Baynton, Matt Lucas, Paterson Joseph) surrounding the chocoholic chief of police (Keegan-Michael Key) in Wonka</figcaption>
 </figure>
 

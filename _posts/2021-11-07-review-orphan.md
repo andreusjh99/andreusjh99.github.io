@@ -2,7 +2,7 @@
 layout: post
 title: Orphan (2009) - Review
 read: 4
-post-image: /assets/images/posts/films/orphan.jpg
+post-image: /assets/images/posts/films/orphan.webp
 description: There is something wrong with Esther
 director: Jaume Collet-Serra
 screenplay: David Leslie Johnson
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/orphan.jpg" alt="Orphan movie still">
+  <img src="/assets/images/posts/films/orphan.webp" alt="Orphan movie still">
   <figcaption><i class="fa-solid fa-film"></i> Jaume Collet-Serra's Orphan </figcaption>
 </figure>
 

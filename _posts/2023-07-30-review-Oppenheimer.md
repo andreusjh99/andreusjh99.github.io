@@ -2,7 +2,7 @@
 layout: post
 title: Oppenheimer (2023) - Review
 read: 7
-post-image: /assets/images/posts/films/oppenheimer.jpg
+post-image: /assets/images/posts/films/oppenheimer.webp
 description: Nolan’s magnum opus
 director: Christopher Nolan
 screenplay: Christopher Nolan
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/oppenheimer.jpg" alt="Oppenheimer movie still">
+  <img src="/assets/images/posts/films/oppenheimer.webp" alt="Oppenheimer movie still">
   <figcaption><i class="fa-solid fa-film"></i> Oppenheimer, directed by Christopher Nolan</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ This film is one of the few instances in Nolan’s filmography where the intertw
 
 
 <figure class="film">
-  <img src="/assets/images/posts/films/oppenheimer_2.jpg" alt="Oppenheimer movie still">
+  <img src="/assets/images/posts/films/oppenheimer_2.webp" alt="Oppenheimer movie still">
   <figcaption><i class="fa-solid fa-film"></i> Lewis Strauss (Robert Downey Jr.) in Oppenheimer</figcaption>
 </figure>
 

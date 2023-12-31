@@ -2,7 +2,7 @@
 layout: post
 title: Saw X (2023) - Review
 read: 4
-post-image: /assets/images/posts/films/saw-x.jpeg
+post-image: /assets/images/posts/films/saw-x.webp
 description: This bloodiest entry offers many interesting elements, some of which are unexpected and welcome.
 director: Kevin Greutert
 screenplay: Peter Goldfinger, Josh Stolberg
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/saw-x.jpeg" alt="Saw X movie still">
+  <img src="/assets/images/posts/films/saw-x.webp" alt="Saw X movie still">
   <figcaption><i class="fa-solid fa-film"></i> Saw X, directed by Kevin Greutert</figcaption>
 </figure>
 
@@ -20,7 +20,7 @@ categories: film review
 The latest installment follows an increasingly distraught John Kramer (Tobin Bell), otherwise known as the Jigsaw killer, who has been diagnosed with terminal brain cancer and only has months to live. An experimental treatment known as the Pederson Method is recommended to John by a fellow cancer patient who claims to have been cured by it. Desperate, John seeks help from Dr Cecilia Pederson (Synnøve Macody Lund) and heads to Mexico for the treatment, only to realise it’s a scam. Pederson and her team soon find out about their epic bad luck when they wake up trapped in a warehouse.
 
 <figure class="film">
-  <img src="/assets/images/posts/films/saw-x_2.jpg" alt="Saw X movie still">
+  <img src="/assets/images/posts/films/saw-x_2.webp" alt="Saw X movie still">
   <figcaption><i class="fa-solid fa-film"></i> Mateo (Octavio Hinojosa) in Saw X, about to have the worst experience of his life</figcaption>
 </figure>
 

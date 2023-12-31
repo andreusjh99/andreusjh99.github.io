@@ -2,7 +2,7 @@
 layout: post
 title: Scream VI (2023) - Review
 read: 6
-post-image: /assets/images/posts/films/scream6.jpg
+post-image: /assets/images/posts/films/scream6.webp
 description: Unexpected improvement over its very recent predecessor
 director: Tyler Gillett, Matt Bettinelli-Olpin
 screenplay: James Vanderbilt, Guy Busick
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/scream6.jpg" alt="Scream VI movie still">
+  <img src="/assets/images/posts/films/scream6.webp" alt="Scream VI movie still">
   <figcaption><i class="fa-solid fa-film"></i> Scream VI, directed by Tyler Gillett and Matt Bettinelli-Olpin</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ Following the news of Neve Campbell leaving the Scream franchise due to disputes
 However, I was very quickly on board with the film after a rather surprising and interesting opening sequence. I soon found myself also invested in the characters of Sam and Tara in a way that I sadly did not in the previous film. With the departure of Neve Campbell (and hence Sidney Prescott, the leading character of the franchise up until then), and the murder of Deputy Dewey Riley (David Arquette) in the previous film, two core legacy characters are taken out of the picture, leaving much room and time for the film to focus on the newer generation of characters introduced to the franchise last year. The film definitely benefits from this, as the new characters have the opportunity to establish a bond that was painfully absent in the last film. We also have a rare situation of a joint lead featuring sisters, and the film invests time to explore the relationship between them, allowing the characters to shine on their own. 
 
 <figure class="film">
-  <img src="/assets/images/posts/films/scream6_2.jpg" alt="Scream VI movie still">
+  <img src="/assets/images/posts/films/scream6_2.webp" alt="Scream VI movie still">
   <figcaption><i class="fa-solid fa-film"></i> Sam (Melissa Barrera) and Tara Carpenter (Jenna Ortega) in Scream VI</figcaption>
 </figure>
 

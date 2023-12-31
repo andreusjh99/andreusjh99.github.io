@@ -2,7 +2,7 @@
 layout: post
 title: Barbie (2023) - Review
 read: 6
-post-image: /assets/images/posts/films/barbie.jpeg
+post-image: /assets/images/posts/films/barbie.webp
 description: Expectedly complex, but surprisingly philosophical
 director: Greta Gerwig
 screenplay: Greta Gerwig, Noah Baumbach
@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/barbie.jpeg" alt="Barbie movie still">
+  <img src="/assets/images/posts/films/barbie.webp" alt="Barbie movie still">
   <figcaption><i class="fa-solid fa-film"></i> Barbie, directed by Greta Gerwig</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ Barbie is an excellent piece of filmmaking. The film is touching, emotional, fun
 Barbie also provides commentaries on Mattel, the creator of the Barbie doll, and on the complicated legacy of the controversial toy. There is no denying that the toy has been a subject of controversy throughout the years since its conception due to its influence on the image of women. Yet, it is also undeniable that Barbie has been an important part of the childhood of many people. The film is a brilliant balancing act in portraying both the positive and negative impacts of the titular toy on our culture. It celebrates Barbie with endearing love and joy while also fearlessly satirising its legacy. While Barbie and Ken grapple with an identity crisis, the film also delves into self-reflection on Mattel and Barbie and explores what the toy might signify for this new generation.
 
 <figure class="film">
-  <img src="/assets/images/posts/films/barbie_2.jpg" alt="Barbie movie still">
+  <img src="/assets/images/posts/films/barbie_2.webp" alt="Barbie movie still">
   <figcaption><i class="fa-solid fa-film"></i> Barbie (Margot Robbie) in Barbie</figcaption>
 </figure>
 
