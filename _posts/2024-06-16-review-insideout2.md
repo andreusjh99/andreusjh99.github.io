@@ -23,7 +23,7 @@ Choosing between spending time with Riley’s best friends, who are going to a d
 
 <figure class="film">
   <img src="/assets/images/posts/films/insideout2_2.webp" alt="Inside Out 2 movie still">
-  <figcaption><i class="fa-solid fa-film"></i> Chris Hemsworth as Dementus leading the Biker Horde in Furiosa: A Mad Max Saga</figcaption>
+  <figcaption><i class="fa-solid fa-film"></i> Joy (Amy Poehler) and Sadness (Phyllis Smith) visiting Riley's Sense of Self</figcaption>
 </figure>
 
 Inside Out 2 is a marvellous sequel to the brilliant original. The film explores more complex emotions and scenarios as Riley steps into early adolescence. Following the tried-and-tested formula of the original, the sequel features a quest in the mind with a group of emotions as other emotions go rogue in the mind console, tempting Riley to make questionable decisions. With three threads going on simultaneously, the film constantly jumps back and forth between them. Directed by first-time director Kelsey Mann, the film is surprisingly coherent and well-paced despite the added complexities of more sophisticated emotions like anxiety and the more expansive set of characters. The parallel of Anxiety in this film and Joy in the previous, where each strives to take control of Riley while dismissing other emotions, is clear, and the film builds on the symmetry throughout by highlighting the duality of Joy and Anxiety, confidence and self-doubt.
