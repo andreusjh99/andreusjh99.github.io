@@ -15,7 +15,7 @@ categories: film review
   <figcaption><i class="fa-solid fa-film"></i> Alien: Romulus, directed by Fede Álvarez</figcaption>
 </figure>
 
-**Alien: Romulus** is the latest entry in the classic science fiction horror franchise that started the craze for extraterrestrial terror more than half a century ago. Set between the events of Alien (1979) and Aliens (1986), Romulus follows a group of space colonists as their path crosses that of extraterrestrials in cryostasis.
+**Alien: Romulus** is the latest entry in the classic science fiction horror franchise that started the craze for extraterrestrial terror almost half a century ago. Set between the events of Alien (1979) and Aliens (1986), Romulus follows a group of space colonists as their path crosses that of extraterrestrials in cryostasis.
 
 It is the year 2142, two decades after the unfortunate events that happened to the Nostromo spaceship. Rain Carradine (Cailee Spaeny) works at a space colony owned by a large conglomerate Weyland-Yutani, dreaming of one day leaving the planet that sees no daylight. When her contract is unexpectedly extended, she and her adoptive android brother Andy (David Jonsson) turn to her former companions as they plan to board a derelict spacecraft passing by the planet’s orbit to retrieve cryostasis chambers necessary for an escape to the nearest colony. Unbeknownst to them, the group stumbles into the aftermath of a tragedy that broke out on the ship years ago, spelling doom for their short-lived hopes of ever seeing daylight.
 
