@@ -33,7 +33,7 @@ Paddington in Peru keeps up the good-naturedness of its predecessors and amps up
 <div class="film-trailer">
 <figure>
   <iframe src="https://www.youtube.com/embed/NTvudSGfHRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <figcaption><i class="fa-brands fa-youtube"></i> Trailer for A Real Pain (2024)</figcaption>
+  <figcaption><i class="fa-brands fa-youtube"></i> Trailer for Paddington in Peru (2024)</figcaption>
 </figure>
 </div>
 
