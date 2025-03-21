@@ -21,7 +21,7 @@ It’s the year 2053. Humans are venturing into space in search of alternative v
 
 <figure class="film">
   <img src="/assets/images/posts/films/mickey17_2.webp" alt="Mickey 17 movie still">
-  <figcaption><i class="fa-solid fa-film"></i> Mark Ruffalo and Toni Collete having</figcaption>
+  <figcaption><i class="fa-solid fa-film"></i> Mark Ruffalo and Toni Collete having a great time</figcaption>
 </figure>
 
 Mickey 17 is a fun science fiction romp that explores ideas like cloning, space exploration, and colonisation in a manner that feels refreshing despite the various iterations of such themes in the genre. Part of the charm is director Bong’s masterful genre-blending efforts, in which he excels (look no further than his signature works like Memories of Murder and Parasite). The film shape-shifts between genres, leaping from comedy farce to political satire, to romance, to thriller, and even, on occasion, to horror, while never losing sight of the overarching science fiction sensibilities. 
