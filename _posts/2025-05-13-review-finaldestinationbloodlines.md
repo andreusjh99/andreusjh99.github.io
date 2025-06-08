@@ -15,7 +15,7 @@ categories: film review
   <figcaption><i class="fa-solid fa-film"></i> Final Destination Bloodlines, directed by Zach Lipovsky and Adam Stein</figcaption>
 </figure>
 
-More than two decades after the release of the supposedly final installment in the franchise, Death is back in cinemas. Clocking in at 110 minutes, Final Destination Bloodlines is the longest entry in the series so far, breaking the 90-minute trend for the franchise.
+More than two decades after the release of the supposedly final installment in the franchise, Death is back in cinemas. Clocking in at 110 minutes, **Final Destination Bloodlines** is the longest entry in the series so far, breaking the 90-minute trend for the franchise.
 
 Bloodlines opens formulaically with a grand disaster that takes the lives of many, like its predecessors. This time it is set in the late 60s, when Iris (Brec Bassinger as young Iris, Gabrielle Rose as elder Iris) and her boyfriend (Max Lloyd-Jones) attend the opening ceremony of the Skyview Restaurant Tower. A coin hits the ventilation fan, one thing leads to another like a stack of dominoes, and the dancing guests in the top floor soon rain down through the shattered glass as the tower collapses due to a massive explosion. Fear not, however, as viewers familiar with the franchise would know that it is only a premonition, and Iris manages to intervene, saving not only a select few as is the case in previous films, but actually stopping the accident from happening. 
 
