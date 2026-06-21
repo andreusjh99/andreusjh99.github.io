@@ -11,7 +11,7 @@ categories: film review
 ---
 
 <figure class="film">
-  <img src="/assets/images/posts/films/onebattleafteranother.webp" alt="F1 movie still">
+  <img src="/assets/images/posts/films/onebattleafteranother.webp" alt="One Battle After Another movie still">
   <figcaption><i class="fa-solid fa-film"></i> One Battle After Another, directed by Paul Thomas Anderson</figcaption>
 </figure>
 
